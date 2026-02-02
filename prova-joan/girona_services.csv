@@ -1,0 +1,715 @@
+id,name,category,subtype,lat,lon
+31022931,,mobility,platform,41.9642527,2.8316389
+250105520,c. Barcelona / c. Caldes de Montbui,mobility,platform,41.9718048,2.814933
+354612955,,mobility,platform,41.976633,2.8023036
+354880351,,mobility,platform,41.9569352,2.8200357
+354880430,,mobility,platform,41.9624997,2.8322205
+355729430,Rovira i Virgili,mobility,platform,41.9786682,2.8101806
+387221033,Tennis Palau,mobility,platform,41.9511996,2.8164559
+442690980,C. Rutlla 158,mobility,platform,41.972593,2.8216774
+444720183,Ramon Folch (Jutjats),mobility,platform,41.9862623,2.8218133
+444720185,Ramon Folch (Jutjats),mobility,platform,41.9865278,2.8219454
+489735973,,mobility,platform,41.9968555,2.8160682
+599567811,,mobility,platform,41.969761,2.8104897
+614086821,Ciutat de Figueres,mobility,platform,41.9706099,2.8264384
+623993645,Mercadona,food,supermarket,41.9918747,2.8193922
+645760348,c. Barcelona / c. Emili Grahit,mobility,platform,41.9753376,2.8164415
+664106756,Comissaria dels Mossos d'Esquadra a Girona,public_service,police,41.9776939,2.8252658
+667294366,Farmàcia Lluís Pla i Cama,health,pharmacy,41.977902,2.8200042
+670696143,Valvi,food,supermarket,41.9777468,2.8203992
+670696186,Farmàcia Susana Palau,health,pharmacy,41.9821316,2.8187681
+670696204,Farmàcia Riera Cardelús,health,pharmacy,41.9824711,2.819629
+702283478,L11 - Santa Clara,mobility,platform,41.9850344,2.8234357
+774726428,,food,convenience,41.9873527,2.8241424
+774883306,Gairin,health,pharmacy,41.985751,2.8225315
+783957309,Escola Sagrada Família,education,kindergarten,41.969614,2.8422214
+783957438,Llar d'Infants La Caseta dels Infants,education,kindergarten,41.9816461,2.8136784
+783957454,Insitut de Ciències Religioses,education,college,41.9850969,2.8274579
+783957500,CSF Pipes,education,kindergarten,41.9730878,2.8209932
+783957548,Llar Infantil Sol Solet,education,kindergarten,41.983732,2.816992
+783957574,Llar d'Infants El Petit Lord,education,kindergarten,41.9676774,2.822738
+783957637,Llar Infantil L'Esquirol,education,kindergarten,41.9737602,2.8108242
+783957645,Llar d'Infants El Bolet,education,kindergarten,41.9704833,2.8101555
+783957653,Llar d'Infants Cel Blau,education,kindergarten,41.9697147,2.8229922
+783957663,Escola Bell-lloc del Pla,education,kindergarten,41.9688858,2.8062756
+783957695,Institut Narcís Xifra i Masmitjà,education,school,42.0043127,2.8238835
+783957702,Llar Infantil Sol Solet 2,education,kindergarten,41.9781497,2.8244866
+783957892,Llar Infantil Teypi,education,kindergarten,41.9796988,2.819465
+783957938,Llar Infantil Monis,education,kindergarten,41.9754407,2.8194779
+783957982,Llar Infantil Infants 2,education,kindergarten,41.9753625,2.8045747
+783957991,Escola Bressol El Tren,education,kindergarten,41.9710539,2.810296
+783958028,Escola Font de la Pólvora,education,school,41.9740543,2.8424121
+783958055,Llar d'Infants Ralet Ralet,education,kindergarten,41.970793,2.8221823
+783958875,Biblioteca de L'Hospital J. Trueta,public_service,library,41.9977155,2.819991
+783958906,Biblioteca de L'Arxiu Històric de Girona,public_service,library,41.9836193,2.8259268
+783958947,Biblioteca Universitat de Girona,public_service,library,41.9845435,2.8280084
+783958972,Biblioteca de la UNED-Girona,public_service,library,41.9823268,2.8259377
+783958980,Biblioteca de Col·legi d'Advocats,public_service,library,41.9872775,2.8230633
+783959042,Biblioteca del Col·legi d'Enginyers Tècnics Industrials de Girona,public_service,library,41.9793439,2.8183866
+783959090,Biblioteca de L'Arxiu Municipal,public_service,library,41.9869309,2.8249253
+783959141,Biblioteca Pública de Girona,public_service,library,41.9815697,2.8214345
+783959157,Biblioteca Eliezer Eljanan Schalit,public_service,library,41.9860762,2.8254725
+783959184,Biblioteca de La UdG. Campus Centre,public_service,library,41.9744968,2.8236095
+783959192,Biblioteca del Col·legi d'Arquitectes de Catalunya. Dem. Girona,public_service,library,41.9871425,2.8253859
+783959250,Biblioteca Antònia Adroher,public_service,library,41.9936788,2.8089215
+783959259,Biblioteca del Museu del Cinema,public_service,library,41.9835026,2.8224707
+796750186,Farmàcia Conejero,health,pharmacy,41.9746635,2.8133394
+796750187,Farmàcia Miralles,health,pharmacy,41.9844957,2.8176952
+796750188,Farmàcia Campasol,health,pharmacy,41.9949386,2.8040662
+796750190,Farmàcia Badia,health,pharmacy,41.9740668,2.8067437
+796750191,Farmàcia Cardelús,health,pharmacy,41.9794683,2.8117935
+796750192,Farmàcia Simon Bombi,health,pharmacy,41.9760828,2.8199838
+796750193,Farmàcia Boada Ordis,health,pharmacy,41.9710762,2.8443054
+796750194,Farmàcia Puig,health,pharmacy,41.9802971,2.8244398
+796750196,Farmàcia Folch Camps,health,pharmacy,41.9801604,2.8220933
+796750197,Farmàcia Pita,health,pharmacy,41.9685739,2.8240643
+796750199,Farmàcia Saguer,health,pharmacy,41.9853341,2.8248114
+796750200,Farmàcia Borrell,health,pharmacy,41.976721,2.8243071
+796750202,Farmàcia Planas,health,pharmacy,41.9843018,2.8246648
+796750203,Farmàcia Feliu,health,pharmacy,41.9740346,2.8049177
+796750205,Farmàcia Noguera,health,pharmacy,41.9756309,2.8221087
+796750206,Farmàcia Alexandre Juanola Ribera,health,pharmacy,42.0066561,2.8246975
+796750208,Farmàcia Albert Manuel-Rimbau,health,pharmacy,41.97487,2.8263062
+796750209,Farmàcia Turon,health,pharmacy,41.9767126,2.8103972
+796750211,Farmàcia Ciurana Ribas,health,pharmacy,41.9797621,2.8203563
+796750212,"Farmàcia Corretger Bobis, E",health,pharmacy,41.9924266,2.814583
+796750215,Farmàcia Muñoz,health,pharmacy,41.9908408,2.8258946
+796750216,Farmàcia Asunción Simón Bonet,health,pharmacy,41.9867771,2.8243755
+796750218,Farmàcia Altarriba,health,pharmacy,41.9832855,2.8240449
+796750219,Farmàcia Riera,health,pharmacy,41.9722557,2.8263594
+796750220,Farmàcia Arpa,health,pharmacy,41.9751155,2.8028188
+796750221,Farmàcia Maria Mercè Peracaula de Garriga,health,pharmacy,41.983798,2.8132379
+796798721,"Farmàcia Nebot Giralt, Ariadna",health,pharmacy,41.994732,2.8196667
+796798722,Farmàcia Folch,health,pharmacy,41.972085,2.818249
+796798723,Farmàcia Corretger-Ruhí,health,pharmacy,41.9678749,2.8213156
+796798724,"Farmàcia Brunso Casellas, M. Dolors",health,pharmacy,41.9940938,2.8065661
+814747316,Carrefour,food,supermarket,41.9956735,2.8199005
+814759128,"Pont de la Barca, 15",mobility,platform,41.9926391,2.8183756
+814759129,Ronda Vila de Perpinyà,mobility,platform,41.9995289,2.8179749
+814759131,,mobility,platform,41.9923325,2.8176425
+814759132,Avinguda de França (Hospital Josep Trueta),mobility,platform,41.9973007,2.8193983
+814759133,Sant Ponç,mobility,platform,41.9937508,2.8196752
+814759134,Avinguda de França (Hospital Josep Trueta),mobility,platform,41.9965579,2.8192443
+814792261,c. Antoni Varés,mobility,platform,41.9954226,2.8129279
+814792272,Puig d'en Roca,mobility,platform,41.9968598,2.8140255
+814794490,,mobility,platform,41.9867188,2.820902
+818778490,PL. Marquès de Camps 16,mobility,platform,41.982034,2.8192918
+818778507,Plaça Marques de Camps,mobility,platform,41.982133,2.8193142
+818799382,Plaça Poeta Marquina,mobility,platform,41.9807962,2.8177613
+818799386,,mobility,platform,41.9810937,2.8181185
+837916691,Bonpreu,food,supermarket,41.9683332,2.8240022
+849240182,,mobility,platform,41.9849386,2.8250806
+863570848,Caprabo,food,supermarket,42.0020827,2.8241542
+871874046,pg. Devesa / Pont de la Barca,mobility,platform,41.9897938,2.8199235
+874854245,Pont de la Barca,mobility,platform,41.9920735,2.8174438
+884641081,J Ruyra i Oms,mobility,platform,41.9725897,2.8264484
+897566737,,mobility,platform,41.992397,2.8139616
+922819082,L11 - Santa Clara,mobility,platform,41.9830063,2.8228708
+922819211,,mobility,platform,41.9847133,2.8278212
+1264001237,,mobility,platform,41.9845351,2.8233533
+1264001243,L11 - Plaça Catalunya,mobility,platform,41.9820459,2.8228718
+1280511405,Gros mercat,food,supermarket,41.962661,2.800864
+1291776302,Condis,food,supermarket,41.9768583,2.8204096
+1291781437,,mobility,platform,41.976872,2.820742
+1291843114,Moriscot,food,convenience,41.983264,2.82495
+1486942913,Farmàcia Vila,health,pharmacy,41.9766843,2.8178094
+1540728728,Avellaneda,mobility,platform,41.9512747,2.8082464
+1540728729,Avellaneda 1,mobility,platform,41.9513181,2.8075589
+1617957270,,food,supermarket,41.98374,2.816145
+1622622204,,mobility,platform,41.9730755,2.8122708
+1622622569,,mobility,platform,41.9688961,2.8109899
+1655840047,Creu Roja a Girona,health,doctors,41.9850219,2.82015
+1657662240,Rambla Catalunya,mobility,platform,41.9759411,2.8130056
+1657662249,Rambla Catalunya,mobility,platform,41.9760029,2.812818
+1657662255,Plaça Assumpció,mobility,platform,41.9751278,2.8107583
+1662391479,Mercadona,food,supermarket,41.9750312,2.8259561
+1765360523,Gran Via Jaume I/C. Nou,mobility,platform,41.9829853,2.8198727
+1765360525,Caprabo,food,supermarket,41.9833218,2.8205694
+1819147455,,mobility,platform,41.9701674,2.8417813
+1819147456,,mobility,platform,41.9708452,2.8430616
+1929152612,,mobility,platform,41.9711991,2.8437472
+1929222010,,mobility,platform,41.9730917,2.8449923
+1942373324,,mobility,platform,41.9756481,2.8248028
+1942373326,,mobility,platform,41.9779112,2.8244209
+1942373329,Plaça del Lleó,mobility,platform,41.9796819,2.8235443
+1942375317,,mobility,platform,41.9719409,2.8418887
+2047177899,Pg. J. Bosco - C. Riera Camaret (Pont Major),mobility,platform,42.0068271,2.825012
+2047177903,Pg. Joan Bosco - C. Gomera (Pont Major),mobility,platform,42.0102191,2.8252535
+2140477340,Llar Infantil El Sol Solet,education,kindergarten,41.9838927,2.8150426
+2216227204,Casa bona,food,convenience,41.9947421,2.8200664
+2411783593,Carrefour,food,supermarket,41.978608,2.812848
+2416097094,Spar,food,supermarket,41.9756931,2.8203883
+2467359823,Bonpreu,food,supermarket,41.9803281,2.8133179
+2467359857,,mobility,platform,41.9796331,2.8135259
+2473978383,Quiroga Frigola,health,pharmacy,41.9772097,2.8134826
+2522277576,,mobility,platform,41.9684726,2.818005
+2522277579,C. Caldes de Monbui,mobility,platform,41.9688998,2.8191844
+2530970702,Els Quimics,mobility,platform,41.9679858,2.8211423
+2530970703,Els Quimics,mobility,platform,41.9684188,2.8210117
+2530977593,,mobility,platform,41.9668031,2.8382716
+2530977596,,mobility,platform,41.9668285,2.8380894
+2530977643,,mobility,platform,41.967538,2.8377382
+2530977653,,mobility,platform,41.9677202,2.8371278
+2530998027,,mobility,platform,41.968208,2.8279348
+2530998029,Bosch i Puy,mobility,platform,41.9687899,2.8269348
+2534806740,Schlecker,food,supermarket,41.9786995,2.8112057
+2589357606,L11 - CAP Güell,mobility,platform,41.9833123,2.812023
+2591284446,Els ninots,education,kindergarten,41.9689147,2.8194233
+2591302167,Alimentacio Empúries,food,supermarket,41.9694682,2.8171738
+2591302180,M Canal Bellvehí,health,pharmacy,41.9693842,2.8173951
+2591302194,Biblioteca Ernest Lluch,mobility,platform,41.9710513,2.8193866
+2591302195,Col·legi Migdia,mobility,platform,41.971212,2.8196126
+2591302197,Farmàcia Ciurana,health,pharmacy,41.974038,2.8201657
+2627344546,La Punxa,mobility,platform,41.9810527,2.8156745
+2787253485,Teeth & tooth,health,dentist,41.9788457,2.8119213
+2791062060,Sabores Latinos,food,supermarket,41.9797359,2.8130823
+2793289723,Despensa Internacional,food,supermarket,41.9767956,2.8107303
+2793289958,,health,dentist,41.9788213,2.81129
+2802302903,BonÀrea,food,supermarket,41.980627,2.8146299
+2821364592,Botiga del barri,food,supermarket,41.9739523,2.8139447
+2833973458,Nezar,health,dentist,41.9820286,2.8157295
+2834761336,Odontomedic,health,dentist,41.984189,2.8165648
+2835366507,Spar,food,supermarket,41.9834423,2.8180901
+2997213585,Av. St. Narcís / c. Francesc Artau,mobility,platform,41.9778583,2.8137252
+2997213586,Av. St. Narcís / c. Francesc Artau,mobility,platform,41.9778783,2.8138312
+2999460770,,food,supermarket,41.9788129,2.8100987
+3010239811,El petit mercat,food,supermarket,41.9782891,2.8094829
+3013884289,Carrer Güell,mobility,platform,41.9777505,2.8102586
+3014959051,Mannu,food,supermarket,41.976897,2.8088252
+3014959053,,food,supermarket,41.9770166,2.8080848
+3027155455,Clinica Dental Santa Eugenia,health,dentist,41.9775492,2.8075166
+3027155475,Espai Latino,food,supermarket,41.9774574,2.8072826
+3050723784,ALDI,food,supermarket,41.96599,2.8074205
+3051617314,,food,supermarket,41.9752683,2.8030275
+3052352932,Sabores latinos,food,supermarket,41.9754566,2.8049506
+3064870407,Biladi,food,supermarket,41.9754647,2.8021872
+3064870410,City Shop,food,supermarket,41.9755253,2.8024139
+3064870412,El Corte Oriental,food,convenience,41.9747062,2.802935
+3064870613,Farmàcia Sabrià Mestras,health,pharmacy,41.9768341,2.8042032
+3077513456,Farmacia Juanola,health,pharmacy,41.9952355,2.8336311
+3304691051,Spar,food,supermarket,41.9740062,2.8055599
+3306400472,Alomnar,health,clinic,41.9849066,2.8160071
+3307458466,Gran Via Jaume I/Generalitat,mobility,platform,41.9804435,2.8213585
+3307458468,Pl. Catalunya,mobility,platform,41.981141,2.8224893
+3308028646,L11 - Riu Güell,mobility,platform,41.9852678,2.8177894
+3337905451,Girona,mobility,bus_station,41.9788069,2.8159068
+3364245333,Els Germans,food,convenience,41.9874903,2.8231524
+3364245334,C.Pons,food,supermarket,41.985319,2.8229574
+3364245348,Imatgedental Girona,health,dentist,41.984276,2.8202007
+3364245349,Implantdent,health,dentist,41.9822188,2.8185189
+3364246771,Suministres Girona,food,supermarket,41.9847645,2.8206563
+3378352108,Artdental,health,dentist,41.9843648,2.8215193
+3378352151,Pecat Original,food,supermarket,41.9845461,2.8226186
+3378352154,,public_service,police,41.9843128,2.820891
+3378352156,,food,supermarket,41.9845254,2.822547
+3388071470,La Belle Vie,food,convenience,41.9850115,2.823546
+3388071582,Farmàcia Josep Maria Xirgu Badia,health,pharmacy,41.9850437,2.8235481
+3425004295,c. Carme,mobility,platform,41.9805688,2.824307
+3425004296,Pujada de les Pedreres,mobility,platform,41.9807737,2.8262902
+3425004297,"Pg. Fora Muralla, 11",mobility,platform,41.9819896,2.826424
+3425076146,Super €uro,food,convenience,41.9845258,2.8229983
+3425099355,Proxim,food,supermarket,41.9820809,2.8186396
+3425129768,Orthodontic,health,dentist,41.9805529,2.8175407
+3437136075,Implantdent,health,dentist,41.9820168,2.8198234
+3437136076,B&V clinica dental,health,dentist,41.982206,2.8197848
+3437136089,Abadent,health,dentist,41.9817786,2.8192869
+3439557542,Comissaria dels Mossos d'Esquadra al Complex Santa de Caterina a Girona,public_service,police,41.9807092,2.8212399
+3439557546,AV. Sant Francesc 4,mobility,platform,41.9823307,2.8225434
+3439621646,Tabacs n°16,food,convenience,41.979997,2.822128
+3490755294,Farmàcia Anna Fina,health,pharmacy,41.9697672,2.8114996
+3490755319,,food,convenience,41.971688,2.8119582
+3508263202,Catalunya,food,convenience,41.974722,2.8216903
+3508263205,Dentapalau,health,dentist,41.975226,2.8192342
+3508263211,Ginkgo,food,supermarket,41.9706364,2.810879
+3508263894,,health,dentist,41.9751262,2.8206252
+3508263957,,food,supermarket,41.9714231,2.8112885
+3508263986,Valvi,food,supermarket,41.9755918,2.8177395
+3508630309,,food,convenience,41.9796838,2.8184154
+3508630310,NOVAVENDA,food,supermarket,41.9805171,2.8187522
+3635028367,,food,supermarket,41.9695586,2.8102508
+3635031170,,food,supermarket,41.970174,2.8097149
+3661120600,,mobility,platform,41.967615,2.8096044
+3661120609,,food,supermarket,41.9691053,2.8100697
+3662205084,,mobility,platform,41.9671096,2.8098232
+3662229913,,mobility,platform,41.9729671,2.8095643
+3667428817,Ait Kamra,food,supermarket,41.9763236,2.8025161
+3667428819,Clínica dental bid,health,dentist,41.976769,2.8023926
+3667428925,Sant Sebastià,mobility,platform,41.9772362,2.8066373
+3679062921,Cenciana,food,convenience,41.9800573,2.820127
+3687238375,Centre Medic Girona,health,doctors,41.980437,2.8190092
+3687238380,Clinica Girona,health,doctors,41.9794987,2.8193708
+3687238407,Giromedic,health,doctors,41.9794137,2.8193389
+3687238411,Coviran,food,convenience,41.9777389,2.818979
+3687238417,Kozanchok,food,supermarket,41.9764908,2.817967
+3687238803,Tiger Mart,food,convenience,41.9777551,2.8197468
+3687238819,,health,dentist,41.9761701,2.820412
+3687238939,Mercat 8&8,food,convenience,41.9766118,2.819381
+3687238963,,health,dentist,41.9786118,2.8180066
+3694795147,millor supermercat,food,supermarket,41.9766809,2.8221147
+3694795178,,food,supermarket,41.9756574,2.8219887
+3694795179,Novavenda,food,supermarket,41.9758826,2.8225654
+3704549703,Mercadona,food,supermarket,41.9620258,2.8116731
+3918038875,Ananda Bio,food,supermarket,41.9786484,2.8223767
+4079785033,,food,supermarket,41.9728014,2.8071055
+4325282537,Virdi,food,supermarket,41.973601,2.805986
+4325282538,,food,supermarket,41.9737322,2.8077314
+4325282539,,food,supermarket,41.9746585,2.8082503
+4327120989,,food,supermarket,41.9738601,2.8031456
+4327120992,Regals mao,food,supermarket,41.9742307,2.801787
+4331958505,Spar,food,supermarket,41.9842871,2.8253979
+4335004127,Centre Mèdic Midgia,health,doctors,41.9747912,2.8174974
+4335046034,Super Alimentació,food,supermarket,41.9690564,2.8178627
+4335094144,Bonpreu,food,supermarket,41.9681966,2.8177891
+4335094161,,food,supermarket,41.9696031,2.8172591
+4335094169,c. Barcelona / Centre Comercial,mobility,platform,41.9710385,2.8148894
+4338337699,Consum,food,supermarket,41.9781105,2.8225907
+4495062547,Escola Mtnjuïc,mobility,platform,41.9902803,2.8277729
+4714163690,Monar,mobility,platform,41.9772002,2.8055209
+4714163706,Agudes,mobility,platform,41.976289,2.8025913
+4721159725,Rovira i Virgili,mobility,platform,41.9787135,2.8099477
+4721219179,Laborsalus salud laboral,health,doctors,41.9768192,2.8040932
+4721241175,Pg. Olot - Pavelló,mobility,platform,41.9758555,2.8076879
+4721241176,PG. Olot 38,mobility,platform,41.9759713,2.8074454
+4721241177,L4 / L8,mobility,platform,41.9746201,2.8036402
+4721241178,L4,mobility,platform,41.9746865,2.8033413
+4738318306,Billamari,food,convenience,41.9768028,2.8028034
+4738318307,Proxim,food,supermarket,41.9755931,2.8026981
+4847794858,Oficina de Correos,public_service,post_office,41.9713049,2.8146219
+4847794859,Correus,public_service,post_office,41.9638558,2.8035744
+4847794860,Oficina de Correos,public_service,post_office,41.9835968,2.818038
+4847794862,Policia Nacional,public_service,police,41.9900676,2.8254692
+4847794892,CFA Nou Girona,education,school,41.9734945,2.8093551
+4847794902,Clínica dr.Bofill,health,clinic,41.979614,2.8204977
+4847794918,Oficina de tramitacío del DNI i passaport,public_service,police,41.9697232,2.8205463
+4847795555,Centre de Documentació Europea,public_service,library,41.9626601,2.8305964
+4847795581,Biblioteca de la Catedral,public_service,library,41.9875325,2.8260145
+4847795582,Biblioteca del col·legi d'arquitectes,public_service,library,41.9871715,2.8253218
+4847795598,Biblioteca Salvador Allende,public_service,library,41.9781444,2.8065997
+4847795612,Sociotecta annexa Joaquim Franch,public_service,library,41.9785319,2.8274503
+4847795613,Biblioteca del seminari,public_service,library,41.9847723,2.8266858
+4847796626,Biblioteca popular de l'ateneu 24 de juny,public_service,library,41.9840503,2.8249784
+4847796641,Escola Bressol el Pont,education,kindergarten,42.0107132,2.8235987
+4847796650,Biblioteca del Col·legi d'Aparelladors i Arquitectes Tècnics de Girona,public_service,library,41.9806562,2.8151694
+4847796667,Bibilioteca Escolar Escola Marta Mata,public_service,library,41.9643801,2.8143007
+4847796715,Biblioteca de l'associació de veïns de Pedret,public_service,library,41.9972067,2.8247675
+4847797431,Biblioteca Escolar Montfollet,public_service,library,41.9730034,2.8024465
+4847797436,Biblioteca Ernest Lluch,public_service,library,41.9709498,2.8191867
+4847797437,Cartoteca de la universitat de Girona,public_service,library,41.9845492,2.8279345
+4847797438,Biblioteca de L'Escola de l'Esplai,public_service,library,41.9734083,2.8239687
+4847797444,Institut superior de ciències religioses,education,college,41.9848217,2.8266634
+4847797470,Biblioteca Escola Bosc de la Pabordia,public_service,library,41.9592651,2.8145376
+4847797512,Punt de lectura de Sant Narcís,public_service,library,41.9750104,2.8114856
+4847797515,Biblioteca de la universitat de Girona - Campus del Barri Vell,public_service,library,41.9844599,2.8280276
+4847797517,Biblioteca de l'Hospital DR.Josep Trueta,public_service,library,41.9976537,2.8196964
+4847798323,Biblioteca Just M. Casero,public_service,library,42.0123035,2.8250579
+4847798327,Aules d'Extensió Universitària,education,school,41.9810292,2.8213914
+4847798328,Biblioteca de l'institut Montilivi,public_service,library,41.9646397,2.8281335
+4855504145,Ginecologia Girona CTD,health,doctors,41.9802267,2.8212949
+4885596556,Condis,food,supermarket,41.9723412,2.8250861
+4885633805,Clínica Baviera,health,clinic,41.9744692,2.8229636
+4885651095,Centre Dental Milenium Girona,health,dentist,41.9742564,2.822566
+5132898197,,mobility,platform,41.9698362,2.8274143
+5132898198,,mobility,platform,41.9668446,2.8283856
+5132898200,Facultat Econòmiques,mobility,platform,41.9608579,2.8308561
+5132898201,,mobility,platform,41.9649495,2.8289602
+5132898202,,mobility,platform,41.9672792,2.8273714
+5132898203,CAP Montilivi,mobility,platform,41.9722692,2.8274108
+5132898204,Carrer Girona per Girona,mobility,platform,41.9721481,2.8289814
+5132898205,,mobility,platform,41.9716296,2.8297028
+5132898206,,mobility,platform,41.9724493,2.8301459
+5132898207,Emili Grahit,mobility,platform,41.9734293,2.8273298
+5132898208,Països Catalans,mobility,platform,41.9741577,2.8237089
+5132898209,Migdia/C. Creu,mobility,platform,41.975653,2.820484
+5132898210,La Salle,mobility,platform,41.9776284,2.8212605
+5132898211,L11 - Massaguer,mobility,platform,41.9843278,2.8134921
+5132898212,L11 - Prudenci Bertrana,mobility,platform,41.9830352,2.8144588
+5132898213,L11 - Caterina Albert,mobility,platform,41.9824096,2.8139538
+5133000319,Codi Parada,mobility,platform,41.987101,2.8243405
+5133000320,Plaça del Vi,mobility,platform,41.9830258,2.8246114
+5133001521,,mobility,platform,41.9788635,2.820772
+5133001522,C. Emili Graith- C. Migdia,mobility,platform,41.9748632,2.820707
+5133001523,"Girona, Emili Grahit",mobility,platform,41.9743489,2.8234238
+5133033333,Joaquim Vayreda,mobility,platform,41.9847693,2.8155222
+5133033334,Pont d'en Vidal,mobility,platform,41.9853266,2.81723
+5133033335,Ronda Pont de Pedret,mobility,platform,41.9895225,2.8226257
+5133033336,,mobility,platform,41.9893243,2.8248459
+5133033337,,mobility,platform,41.9882984,2.8289967
+5133033338,,mobility,platform,41.9886852,2.8313179
+5133033350,,mobility,platform,41.9887013,2.8330571
+5133033351,,mobility,platform,41.9883059,2.833897
+5133033352,,mobility,platform,41.9886875,2.8269819
+5133033353,,mobility,platform,41.9891622,2.8242379
+5133078771,Palau de justicia de Girona,mobility,platform,41.9844349,2.8116446
+5133078772,Joaquim Vayreda /Davesa,mobility,platform,41.9845019,2.8133893
+5185408354,Dia,food,supermarket,41.9719174,2.8075483
+5429212220,la Rodona,mobility,platform,41.9800325,2.8135286
+5429212821,C. Santa Eugènia 70,mobility,platform,41.9799498,2.8129618
+5529259654,Novavenda,food,supermarket,41.9953957,2.8334369
+5536219284,Campdorà (Dir. Palamós),mobility,platform,42.0242369,2.8400158
+5536219285,"Girona, Pont Major (direcció Palamós)",mobility,platform,42.013787,2.8268337
+5560587776,"Girona, Pont Major (direcció Girona)",mobility,platform,42.0138309,2.8266446
+5560587781,"Girona, Correus (direcció Girona)",mobility,platform,41.9864612,2.8221253
+5560587783,Campdorà (direcció Girona),mobility,platform,42.0243531,2.8398217
+5563106488,"Girona, Parc Tecnologic (direcció Palamos)",mobility,platform,41.9671155,2.8386641
+5563106489,"Girona, Interna Udg (direcció Palamós)",mobility,platform,41.9622649,2.8276291
+5563106490,"Girona, Emili Grahit (direcció Palamos)",mobility,platform,41.9741596,2.823693
+5588915387,"Girona, Correus",mobility,platform,41.9862799,2.8217724
+5635656635,"Girona, Interna Udg (direcció Girona)",mobility,platform,41.9624069,2.8275383
+6370421687,Multipreu De Girona,food,convenience,41.9839535,2.8153264
+6486906993,To Girona Aeroport-Costa Brava,mobility,platform,41.979629,2.8163917
+6521620072,Tennis Palau,mobility,platform,41.9511116,2.8166232
+6528693288,Coaliment,food,supermarket,41.9813638,2.8194433
+6528788185,Parafarmacia Salut,health,pharmacy,41.9788153,2.8186045
+6528903886,Novavenda,food,supermarket,41.9791329,2.8223281
+6529575986,L'estuca,food,supermarket,41.9869795,2.8243052
+6533623825,A Granel,food,convenience,41.9766376,2.8229856
+6546306195,Consum,food,supermarket,41.9787034,2.822824
+6546306202,Dr. Campistol,health,dentist,41.9781329,2.8178693
+6546306213,CFA Girona,education,school,41.9770683,2.8222697
+6549374951,Camí Vell de Fornells,mobility,platform,41.9526023,2.8177828
+6549374952,Camí Vell de Fornells,mobility,platform,41.9526722,2.817673
+6582866737,Mercadona,food,supermarket,41.962676,2.8116343
+6582866740,Escola Tècnica Girona,education,school,41.9634163,2.8119329
+6802537589,Dia,food,supermarket,41.9722788,2.8236839
+6930088004,Cooperativa El Rebost,food,supermarket,41.9939763,2.82103
+7127097581,GIREXX,health,clinic,41.9761842,2.8250669
+7297313828,"Farmàcia Caballé Serra, Raquel",health,pharmacy,41.991771,2.8174426
+7312997907,BonÀrea,food,supermarket,41.9761833,2.8187422
+7415331372,,mobility,platform,41.9622969,2.8133851
+7415331374,,mobility,platform,41.964576,2.8313828
+7415331375,,mobility,platform,41.9695367,2.825839
+7415331376,,mobility,platform,41.9696199,2.8256492
+7415331377,C. Muralla 7,mobility,platform,41.9851407,2.8292333
+7415331378,C. Muralla 5,mobility,platform,41.9860945,2.8295151
+7415331379,"Estació d'Autobusos, RENFE",mobility,platform,41.9791062,2.8179185
+7415331380,,mobility,platform,41.97501,2.819305
+7415331381,,mobility,platform,41.9739258,2.8011697
+7415332485,Rotonda Mas Gri,mobility,platform,41.9601585,2.8104579
+7415332510,,mobility,platform,41.962631,2.832367
+7415332511,,mobility,platform,41.9671008,2.8277591
+7415332512,,mobility,platform,41.9662263,2.8310388
+7415332513,,mobility,platform,41.963616,2.8322091
+7415332514,,mobility,platform,41.9887224,2.8270366
+7415332515,,mobility,platform,41.988615,2.8311236
+7415332516,,mobility,platform,41.9882111,2.8289644
+7415332517,"Pujada Barrufa, 42",mobility,platform,41.9923965,2.8301221
+7415332518,,mobility,platform,41.9607449,2.830823
+7415332519,,mobility,platform,41.9624057,2.8277599
+7415332520,Torre Alfons XII (Piruli),mobility,platform,41.9774214,2.8351568
+7415332521,Torre Alfons XII (Transformador),mobility,platform,41.9792962,2.8339328
+7415332522,Pedret - C. Pedret / Centre Cívic,mobility,platform,41.9973372,2.8246234
+7415332523,,mobility,platform,41.9768114,2.8242751
+7415332524,,mobility,platform,41.9740844,2.8295362
+7415332525,,mobility,platform,41.9949939,2.8332494
+7415332526,,mobility,platform,41.9951789,2.8146625
+7415332527,,mobility,platform,41.975484,2.8176552
+7415332528,,mobility,platform,41.9743906,2.8102298
+7415332529,,mobility,platform,41.9941735,2.8060108
+7415332530,,mobility,platform,41.9940184,2.8018922
+7415332531,,mobility,platform,41.9921836,2.8021913
+7415332532,,mobility,platform,41.9925652,2.8044063
+7415332533,,mobility,platform,41.9939437,2.8068691
+7415332535,"Pujada Barrufa, 13",mobility,platform,41.9904114,2.8301717
+7415332537,PL. Josep Ferrater i Mora,mobility,platform,41.9840856,2.8279392
+7415332538,PL. Josep Ferrater i Mora 1,mobility,platform,41.9840311,2.827969
+7415332539,AV. Alvarez de Castro 5,mobility,platform,41.9814799,2.8197393
+7415332540,La Salle,mobility,platform,41.9775969,2.8213681
+7415332541,,mobility,platform,41.9674652,2.8375294
+7415332542,,mobility,platform,41.9648617,2.8322129
+7415332543,,mobility,platform,41.963517,2.83249
+7415332544,,mobility,platform,41.9666868,2.8161997
+7415332545,Hotel Bellavista,mobility,platform,41.9795141,2.8284066
+7415332546,,mobility,platform,41.9662568,2.8080749
+7415332547,,mobility,platform,42.0006589,2.8243308
+7415332548,c. Torre Gironella,mobility,platform,41.9833512,2.8334143
+7415332549,Av. St. Narcís / c. Sta. Eugènia,mobility,platform,41.9795819,2.8137404
+7415332550,"Pujada Barrufa, 26",mobility,platform,41.9922867,2.8286598
+7415332551,,mobility,platform,41.9950126,2.8038737
+7415332552,Residència d'Estudiants,mobility,platform,41.959922,2.8198488
+7415332553,c. Carme,mobility,platform,41.9806651,2.8242809
+7415332554,,mobility,platform,41.9646201,2.8134901
+7415332555,"c. Barcelona, Avellaneda",mobility,platform,41.9544864,2.8081812
+7415332556,"Pedret - C. Pedret, 110",mobility,platform,41.9942274,2.825949
+7415332557,Pujada Torre Alfons XII,mobility,platform,41.9817317,2.8311517
+7415332558,Pujada Torre Alfons XII,mobility,platform,41.9812457,2.8308586
+7415332562,,mobility,platform,41.9646455,2.8076862
+7415332563,Pl. Domenec Fita i Molat,mobility,platform,41.9948657,2.8331971
+7415332564,,mobility,platform,41.9672357,2.8087033
+7415332565,,mobility,platform,41.9716432,2.812013
+7415332566,Escola Montjuïc,mobility,platform,41.9899878,2.8276259
+7415332567,C. Pedret,mobility,platform,41.9903724,2.8259522
+7415332568,c. Orient / c. Campcardós,mobility,platform,41.973105,2.8072304
+7415332569,,mobility,platform,41.9902782,2.8391055
+7415332570,"c. Barcelona, 142",mobility,platform,41.9674524,2.8132388
+7415332571,,mobility,platform,41.9929037,2.8088571
+7415332572,,mobility,platform,42.0045902,2.8245837
+7415332573,,mobility,platform,41.9745105,2.8421266
+7415332574,,mobility,platform,41.9730396,2.8413925
+7415332575,,mobility,platform,41.9786514,2.8168871
+7415332576,,mobility,platform,41.9763279,2.8180219
+7415332577,c. Barcelona / c. Creu,mobility,platform,41.9772196,2.8173704
+7415332578,c. Carme,mobility,platform,41.9765149,2.812024
+7415332579,La Devesa / av. de França,mobility,platform,41.9899095,2.8212581
+7415332580,"Pujada Barrufa, 26",mobility,platform,41.992271,2.8289155
+7415332581,Ronda Fort Roig - Montjuïc,mobility,platform,41.9946997,2.8305851
+7415332583,,mobility,platform,41.9845285,2.8131102
+7415332584,Hotel Bellavista,mobility,platform,41.9794071,2.8283775
+7415332585,,mobility,platform,41.9818638,2.8153292
+7415332586,,mobility,platform,41.9838782,2.8199133
+7415332587,"av. Ramon Folch, 9 / Jutjats",mobility,platform,41.9861763,2.8220001
+7415332590,C. Pedret,mobility,platform,41.9907091,2.8259943
+7415332591,,mobility,platform,41.9766993,2.8128834
+7415332592,,mobility,platform,41.9610628,2.8041778
+7415332593,,mobility,platform,41.9932238,2.8085715
+7415332594,,mobility,platform,41.989618,2.8246075
+7415332596,,mobility,platform,41.9613136,2.80392
+7415332597,c. Regiment de Baza,mobility,platform,41.9805006,2.827659
+7415332598,c. Regiment de Baza,mobility,platform,41.9806897,2.8276561
+7415332599,"Pg. Fora Muralla, 3",mobility,platform,41.9809427,2.8264962
+7415332600,"Pg. Fora Muralla, 16",mobility,platform,41.9829468,2.8272091
+7415332601,PG. Fora Muralla,mobility,platform,41.9829401,2.8270692
+7415332602,,mobility,platform,41.9967329,2.8021554
+7415332603,,mobility,platform,41.9665765,2.8163452
+7415332604,,mobility,platform,41.9720401,2.8402303
+7415332605,,mobility,platform,41.9921971,2.8100612
+7415332606,,mobility,platform,41.9951192,2.803973
+7415332607,La Punxa,mobility,platform,41.9807763,2.8153735
+7415332608,Rotonda Mas Gri,mobility,platform,41.9615457,2.8107676
+7415332609,,mobility,platform,41.9621802,2.8133502
+7415332610,Residència d'Estudiants,mobility,platform,41.9599896,2.8196891
+7415332611,,mobility,platform,41.9926947,2.8257206
+7415332612,"c. Barcelona, 195",mobility,platform,41.9639246,2.8119891
+7415332613,"c. Barcelona, 137",mobility,platform,41.9684028,2.8138032
+7415332614,,mobility,platform,41.9857259,2.827257
+7415332615,"Pl Marquès de Camps, 2",mobility,platform,41.9825913,2.8195081
+7415332616,"Pda. Creu de Palau, 44",mobility,platform,41.9633506,2.8203009
+7415332617,,mobility,platform,41.9729723,2.8095447
+7415332618,Pl. Torre Gironella,mobility,platform,41.9848484,2.8322037
+7415332619,Av. Lluís Percicot,mobility,platform,41.967505,2.8235859
+7415332620,,mobility,platform,41.9588464,2.8018567
+7415332621,"c. Barcelona, 202",mobility,platform,41.9651121,2.8122757
+7415332622,,mobility,platform,41.9593373,2.8165836
+7415332623,c. Orient / pg. D'Olot,mobility,platform,41.9760549,2.8086722
+7415332624,"c. Barcelona, 159",mobility,platform,41.9665918,2.8130848
+7415332625,,mobility,platform,41.9743611,2.8204329
+7415332626,Pedret - C. Pedret (gasolinera),mobility,platform,42.004182,2.8248174
+7415332628,Pavello de Palau,mobility,platform,41.9656364,2.8207964
+7415332629,"av. Ramon Folch, 4 / Jutjats",mobility,platform,41.9864146,2.8222227
+7415332630,,mobility,platform,41.9887381,2.8374193
+7415332631,C. Rutlla 132,mobility,platform,41.9738613,2.8220099
+7415332632,,mobility,platform,41.9645836,2.8136609
+7415332633,,mobility,platform,41.9663922,2.8078723
+7415332634,,mobility,platform,41.9582469,2.8009626
+7415332635,Pedret - C. Pedret 162,mobility,platform,42.0007787,2.8245492
+7415332636,,mobility,platform,41.9766058,2.8166134
+7415332637,Parc del Migdia,mobility,platform,41.9739787,2.8160445
+7415332638,"Estació d'Autobusos, RENFE",mobility,platform,41.9796875,2.8183664
+7415332639,,mobility,platform,41.9706735,2.8391329
+7415332640,,mobility,platform,41.97139,2.8372351
+7415332641,"c. Barcelona, 216",mobility,platform,41.9536328,2.8076611
+7415332642,Pavelló de Palau,mobility,platform,41.9654067,2.8209474
+7415332643,,mobility,platform,41.9578003,2.8237334
+7415332644,c. Torre Gironella,mobility,platform,41.9834294,2.8335587
+7415332645,"Pda. Creu de Palau, 45",mobility,platform,41.9634438,2.8204951
+7415332646,,mobility,platform,41.9742063,2.8205651
+7415332647,,mobility,platform,41.9748482,2.8259338
+7415332648,,mobility,platform,41.9742361,2.8285493
+7415332649,,mobility,platform,41.9803528,2.8243464
+7415332650,"C. Palamós, 1",mobility,platform,41.989798,2.8244962
+7415332651,,mobility,platform,41.9969192,2.8245649
+7415332652,,mobility,platform,41.9921334,2.8141946
+7415332654,C. Bellpuig,mobility,platform,41.996806,2.8370904
+7415332655,,mobility,platform,41.9684794,2.8181867
+7415332656,,mobility,platform,42.0067775,2.8247541
+7415332657,,mobility,platform,41.9644899,2.8071127
+7415332658,C. Sant Sebastià,mobility,platform,41.9723445,2.8058981
+7415332659,Pujada de les Pedreres,mobility,platform,41.9806746,2.8262908
+7415332660,Pl. Lluís Companys,mobility,platform,41.971131,2.8215146
+7415332661,C. Sant Sebastià 13,mobility,platform,41.9732683,2.8064435
+7415332662,,mobility,platform,41.9720477,2.8430913
+7415332663,la Creu de Palau,mobility,platform,41.9565828,2.8198346
+7415332664,,mobility,platform,41.9591607,2.816541
+7415332665,,mobility,platform,41.9842031,2.8136035
+7415332666,C. Montjovi,mobility,platform,41.9956767,2.8368344
+7415332667,,mobility,platform,42.0098414,2.8250876
+7415332668,PG. Fora Muralla 12,mobility,platform,41.9821434,2.8263774
+7415332669,,mobility,platform,42.0125259,2.8256386
+7415332670,,mobility,platform,42.0126467,2.8258292
+7490586752,Girona,mobility,railway_station,41.9791657,2.8162865
+7595248356,Regals Mao,food,convenience,41.9852458,2.8178413
+7825986585,Casa de la miel,food,supermarket,41.9839683,2.8249806
+8327341381,GIRONA (NESTLE),mobility,platform,41.989518,2.7956011
+8583510192,Condis,food,supermarket,41.9716054,2.8213367
+8583521517,Suma,food,supermarket,41.9706359,2.8215047
+8758818653,C. Aragó,mobility,platform,41.9512378,2.8116379
+8758818654,la Creu de Palau,mobility,platform,41.9569891,2.8199871
+8758818655,C. Migdia - C. Emili Grahit,mobility,platform,41.9756084,2.8205709
+8758818656,"Pujada Barrufa, 14",mobility,platform,41.9905087,2.8301973
+8758818657,Pl. 1 d'Octubre,mobility,platform,41.9838317,2.8198591
+8758818659,Pg. General Mendoza Mercat,mobility,platform,41.9793831,2.823618
+8758818660,C. Aragó,mobility,platform,41.9513308,2.8112097
+8944722991,Novavenda,food,supermarket,41.9745594,2.8036097
+9028471124,,food,supermarket,41.97633,2.8004543
+9090444507,,health,dentist,41.9823935,2.818694
+9227022876,Centre giDona,health,clinic,41.9748906,2.816621
+9227164594,Sanum,food,supermarket,41.9752289,2.8176926
+9317635697,Consum,food,supermarket,41.9664481,2.8168291
+9644211193,Xavier,food,convenience,41.9759939,2.8191066
+9686690549,,mobility,platform,41.9828798,2.8245274
+9776620061,Supermercat Xinés,food,supermarket,41.9770806,2.8107646
+9776680592,,mobility,platform,41.963828,2.8117744
+9809264932,Migdia 122,health,pharmacy,41.9671239,2.8167573
+10108728702,CEPTE - CIM Formación Girona,education,college,41.9806007,2.8145921
+10214653617,Bottega Toscana,food,supermarket,41.9808277,2.8189028
+10226342117,Normal,food,supermarket,41.977862,2.8202607
+10313268074,,food,convenience,41.9843813,2.8249659
+10586616461,Gd Medic,health,clinic,41.9830796,2.8215828
+10587232942,Rotonda Tailà,mobility,platform,41.9923212,2.8085603
+10587232943,Rotonda Taialà,mobility,platform,41.9922198,2.8084591
+10729703014,Alimentació Muntaner,food,supermarket,41.9777363,2.8131251
+11155341703,Clínica Saurina,health,dentist,41.9759718,2.8183465
+11212563519,La Botigueta,food,convenience,41.978598,2.8177129
+11290204528,,public_service,post_office,41.9716166,2.8245577
+11405206771,Vimet,food,convenience,41.9853742,2.8250192
+11487084385,Instituts Odontològics,health,dentist,41.9763547,2.8229186
+12096447977,,food,supermarket,41.9722562,2.8260206
+12166490628,Clínica Girona,mobility,platform,41.9626297,2.811291
+12166511901,Escola Tècnica Agrària,mobility,platform,41.9631798,2.8116697
+12229218311,Prime,food,supermarket,41.9781895,2.8124703
+12309298904,,education,kindergarten,41.9682818,2.8154629
+12378774935,Botiga Rutlla,food,supermarket,41.9730399,2.8219302
+12379206217,,health,dentist,41.9809005,2.8196208
+12379229981,,food,convenience,41.9715729,2.8151266
+12379231925,,mobility,platform,41.96738,2.8133774
+12379243486,Maxi Dia,food,supermarket,41.9769716,2.8169968
+12382990234,Condis,food,supermarket,41.9777576,2.8244288
+12410167775,,mobility,platform,41.9775474,2.8152205
+12410167776,,mobility,platform,41.9775813,2.8152323
+12410167777,,mobility,platform,41.9776394,2.8152525
+12410167778,,mobility,platform,41.9776956,2.815272
+12410167779,,mobility,platform,41.9777486,2.8152904
+12410167780,,mobility,platform,41.9778091,2.8153115
+12410167781,,mobility,platform,41.977927,2.8153525
+12410167782,,mobility,platform,41.9778611,2.8153295
+12410167783,,mobility,platform,41.9779748,2.8153691
+12410167784,,mobility,platform,41.9780345,2.8153898
+12410167785,,mobility,platform,41.9780895,2.8154089
+12410167786,,mobility,platform,41.9775181,2.8152103
+12410167787,,mobility,platform,41.9781467,2.8154288
+12410185027,27,mobility,platform,41.9782211,2.8156136
+12410185028,26,mobility,platform,41.9782488,2.8154185
+12410185029,25,mobility,platform,41.9782547,2.8153909
+12420025219,,mobility,platform,41.9777868,2.8154296
+12420025220,,mobility,platform,41.9777297,2.8154101
+12420025221,,mobility,platform,41.977666,2.8153883
+12420025222,,mobility,platform,41.9776124,2.8153701
+12420025223,,mobility,platform,41.9775553,2.8153505
+12420025224,,mobility,platform,41.9779006,2.8154685
+12420025226,,mobility,platform,41.9780195,2.8155091
+12420025227,,mobility,platform,41.9780764,2.8155285
+12420025228,,mobility,platform,41.9781281,2.8155462
+12518597460,Montserrat Guixeres,health,pharmacy,41.9708629,2.8383469
+12719037657,Dra Bachilleria,health,dentist,41.982015,2.819466
+12738823545,Condis,food,supermarket,41.9829796,2.8146718
+12786344523,Dorsia Cliniques,health,clinic,41.9718317,2.8199726
+12804602051,Quirón Prevención,health,clinic,41.9845537,2.817366
+12967223749,Av. Ramon Folch - Correus,mobility,platform,41.9897792,2.8215414
+12967249061,Av. Ramon Folch - Argadà,mobility,platform,41.9862005,2.8219319
+13031105001,Condis,food,supermarket,41.9887345,2.8246169
+13063134385,Bf,health,pharmacy,41.9798823,2.8225163
+13086381380,Grup Talent Medic,health,doctors,41.9762036,2.8140204
+13289385154,Condis,food,supermarket,41.9779287,2.8120522
+32652056,Institut Montilivi,education,school,41.9643172,2.8281602
+36785837,Institut Santiago Sobrequés i Vidal,education,school,41.971166,2.8202694
+36785838,Escola Migdia,education,school,41.9705333,2.8200478
+62110915,Maristes Girona,education,school,41.9802461,2.8099947
+63912509,Biblioteca de La UdG. Campus Montilivi,public_service,library,41.9627718,2.830055
+63913820,,food,convenience,41.9624959,2.8109091
+63915708,Llar d'Infants N. Sra. de la Misericòrdia,education,kindergarten,41.9966332,2.813896
+63917590,Centre d'Atenció Primària Girona 2 Can Gibert del Pla,health,clinic,41.9716975,2.8051218
+63918764,Punt de Lectura de Torre Gironella,public_service,library,41.9848519,2.831627
+63923414,Centre d'Atenció Primària Doctor Joan Vilaplana Germans Sàbat,health,clinic,41.9964024,2.8042015
+63924501,Hospital Dr. Josep Trueta,health,hospital,41.997625,2.8201258
+63924994,Àrea Regional de Trànsit Mossos d'Esquadra a Girona,public_service,police,41.9629879,2.8051879
+63926381,Ametller Origen,food,supermarket,41.9662826,2.8085499
+63927145,Caprabo,food,supermarket,41.9784587,2.8084813
+63929034,Parc de Bombers de Girona,public_service,fire_station,41.9603175,2.8064232
+63931585,Centre d'Atenció Primària Montilivi,health,clinic,41.9720353,2.8278292
+63932308,Centre d'Atenció Primària Vila-roja,health,clinic,41.9724035,2.8412217
+63932917,Llar d'infants El Cavall Fort,education,kindergarten,41.9739577,2.8428485
+63933570,Can Po Vell,education,college,41.979907,2.8056431
+63933633,Escola Montfalgars,education,school,41.9728746,2.802289
+63934186,Escola Balandrau,education,school,41.9915899,2.8098497
+63934198,Centre d'especialitats Riu Güell,health,clinic,41.9829969,2.811694
+63936002,Biblioteca de L'Institut d'Estudis Gironins,public_service,library,41.9863455,2.8294227
+63938518,,food,supermarket,41.9559989,2.8207821
+238040179,FEDAC Sant Narcís,education,school,41.977105,2.8126075
+244347171,Escola Bressol de la Devesa,education,kindergarten,41.9836076,2.8135902
+244836163,Escola Pla de Girona,education,school,41.9712664,2.8235509
+245240363,Bambini-Montjuïc,education,school,41.995224,2.8371576
+253155664,Biblioteca Carles Rahola,public_service,library,41.9744709,2.819357
+255632377,Escola Bressol l'Olivera,education,kindergarten,41.9695332,2.8271169
+273973157,Escola Montessori Palau,education,school,41.9497617,2.8166548
+303629711,Llar Infantil Sant Ramon Nonat,education,kindergarten,41.9900604,2.8274641
+305239293,Escola Montjuïc,education,school,41.9907254,2.8272078
+345382700,Lidl,food,supermarket,41.981629,2.809855
+361108147,Escola de Vila-roja,education,school,41.9703662,2.8447992
+361962820,Escola Josep Dalmau i Carles,education,school,41.971251,2.8059728
+362005193,Escola Marta Mata,education,school,41.9646417,2.8142368
+362101127,Escola Pericot,education,school,41.9725979,2.8296191
+362475139,Escola El Bosc de la Pabordia,education,school,41.9592726,2.8146035
+373599170,Institut de Vilablareix,education,school,41.9578696,2.799616
+422484576,ALDI,food,supermarket,41.9823653,2.8098379
+486973629,,mobility,bus_station,41.9873587,2.8222104
+527807072,Iquodrive,food,supermarket,41.9594943,2.8012659
+548089827,Institut Ermessenda de Girona,education,school,41.9586848,2.8151455
+583621169,Escola Cassià Costal,education,school,41.9729133,2.815021
+583621959,Mercat municipal d'Abastaments,food,supermarket,41.9795895,2.8228571
+645952867,Escola Carme Auguet,education,school,42.0110476,2.8232193
+690578961,Esclat,food,supermarket,41.9542595,2.8109236
+690578969,Lidl,food,supermarket,41.9646023,2.8082183
+752857541,Escola Bressol La Baldufa,education,kindergarten,41.9960393,2.80351
+863026882,Parc de Recerca i Innovació de la Universitat de Girona,education,university,41.9670534,2.8368117
+1020654214,Parc de Recerca i Innovació de la Universitat de Girona,education,university,41.9674658,2.8391297
+1035329252,Llar d'Infants L'Estel,education,kindergarten,41.976502,2.808204
+1035801019,Llar Infantil Petit Príncep,education,kindergarten,41.971378,2.8155915
+1257583880,,food,convenience,41.9946372,2.8336824
+1317526096,,food,convenience,41.9520634,2.8074921
+1335042744,IES Vilablareix,education,school,41.9581226,2.7982585
+1005310,Centre Jove de Salut,health,clinic,41.9900337,2.8261137
+1005997,Ajuntament de Girona,public_service,townhall,41.9828609,2.8251698
+1008618,Biblioteca del Museu d'Arqueologia de Catalunya i del Centre d'Arqueologia,public_service,library,42.0002592,2.8239012
+1008871,,public_service,post_office,41.9834937,2.8177821
+1011460,"Campus del Barri Vell, UdG",education,university,41.9852764,2.827758
+1011576,Policia Local de Girona,public_service,police,41.9804313,2.8202456
+1011584,Centre d'Atenció Primària Santa Clara,health,clinic,41.9841653,2.8229654
+1012034,Correus i Telègrafs,public_service,post_office,41.9863273,2.822883
+1012841,Causse Clinic,health,clinic,41.9763417,2.824796
+3304118,Escola Bell-lloc del Pla,education,school,41.9688831,2.8063889
+4515003,Llar Infantil Querubí,education,kindergarten,41.9845513,2.8188975
+5120348,Escola Àgora,education,school,41.9711676,2.8102569
+5207755,Institut Carles Rahola i Llorenç,education,school,41.994011,2.8027635
+5207763,Escola Taialà,education,school,41.9939241,2.804838
+5207821,Escola Santa Eugènia,education,school,41.9769125,2.8093442
+5235616,Escola Domeny,education,school,41.9909299,2.8077919
+5383855,CEE Font de L'Abella,education,school,41.9643571,2.8260143
+5385908,"Campus Centre, UdG",education,university,41.9747366,2.8236623
+5387775,Llar d'Infants El Tarlà,education,kindergarten,41.9720804,2.8061459
+5388265,Institut Santa Eugènia,education,school,41.9705007,2.8040148
+5388270,Escola Bressol Garbí,education,kindergarten,41.9641795,2.8137527
+5388287,CEE Palau,education,school,41.9648271,2.8212087
+5390291,Centre educatiu Justícia Montilivi,education,school,41.96526,2.8283235
+5397954,Escola Doctor Masmitjà,education,school,41.9765424,2.8186493
+5402473,Escola Les Alzines,education,school,41.9560946,2.8186954
+5407437,Escola Verd,education,school,41.9788533,2.8201601
+5409824,Vedruna Girona,education,school,41.9800755,2.8190815
+5415514,Escola La Salle,education,school,41.9775495,2.8220968
+5415527,Escola Eiximenis,education,school,41.9841536,2.821224
+5415529,Escola Joan Bruguera,education,school,41.9851365,2.8206482
+13484063,Guàrdia Civil,public_service,police,41.9732397,2.8260599
+13922902,Escola annexa - Joan Puigbert,education,school,41.9784593,2.8276128
+14946839,FEDAC - Pont Major,education,school,42.0112057,2.8245241
+14999160,Clínica Girona,health,hospital,41.9636051,2.8113062
+15094744,Institut Escola d'Hostaleria i Turisme de Girona,education,school,41.9808151,2.8118944
+15094760,Institut Jaume Vicens Vives,education,school,41.9791482,2.8258217
+15851406,"Campus de Montilivi, UdG",education,university,41.9628398,2.8298628

@@ -1,0 +1,137 @@
+address,price,area,rooms,neighbourhood,floors,elevator,lat,lon
+"Calle Doctor Pascual i Prats, 1",750,50,1,Carme-Vistalegre,1,false,41.976921,2.824609
+Ronda Ferran Puig,1350,108,3,Devesa,4,true,41.98511,2.81703
+"Calle de les Ballesteries, 15",1020,87,1,Barri Vell,3,false,41.985732,2.82489
+"Calle del Riu Güell, 3",2700,190,2,Devesa,3,true,41.985791,2.819352
+"Calle Barcelona, 43",2200,100,3,Eixample,4,true,41.978423,2.818067
+Eixample,3400,131,3,,3,true,41.98007,2.818438
+"Avenida de Sant Narcís, 18",1550,108,4,Sant Narcís,5,true,41.978559,2.813899
+"Calle Migdia, 16",1800,96,3,Eixample,1,true,41.976567,2.820736
+"Calle Riu Ser, 4",2250,190,4,Migdia Casernes,4,true,41.923817,2.764141
+Calle de Fontajau,1000,65,3,Fontajau-Domeny,,,41.991329,2.815752
+Calle de Santa Eugènia,1400,115,2,Devesa,,,39.622463,2.836456
+Calle Emili Grahit,2600,164,4,Eixample,4,false,41.973349,2.829866
+Calle de Santa Eugènia,1700,75,2,Devesa,4,true,39.622463,2.836456
+Calle Barcelona,1600,155,4,Eixample,,,41.965464,2.812528
+"Calle de Pedret, 14",1600,65,2,Barri Vell,3,false,41.990974,2.826301
+"Plaza europa, s/n",1650,110,4,Sant Narcís,4,true,41.97382,2.809952
+Calle Auriga,1495,90,3,Barri Vell,1,true,41.98231,2.825123
+Calle de les Ballesteries,1100,50,1,Barri Vell,1,false,41.986073,2.824818
+Pujada de Sant Martí,750,54,,Barri Vell,3,false,41.984288,2.826062
+Calle de les Ferreries Velles,1250,89,3,Barri Vell,,,41.984028,2.825042
+Paseo de la Devesa,680,35,1,Devesa,4,true,41.981407,2.821286
+"Oriol Martorell, 28",1650,138,4,Migdia Casernes,3,true,41.923817,2.764141
+Calle de la Força,1300,96,2,Barri Vell,3,true,41.986245,2.825205
+Fontajau-Domeny,950,65,3,,7,false,41.992573,2.789045
+Calle Saragossa,1500,170,4,Migdia Casernes,1,false,41.923817,2.764141
+Pujada de la Catedral,1124,71,1,Barri Vell,2,false,41.986864,2.826046
+Calle Bisbe Lorenzana,2304,87,2,Eixample,1,true,41.978459,2.820586
+Travesía de la Creu,1200,90,2,Eixample,,,41.975942,2.821747
+Calle del Carme,1200,98,3,Carme-Vistalegre,3,true,41.537097,1.659579
+Montilivi-Pericot,2500,249,4,,,,41.97363,2.826648
+Eixample,2300,90,2,,2,true,41.98007,2.818438
+"Calle de Portlligat, 8",1100,75,3,Pont Major-Pedret,2,true,42.106293,3.137238
+Eixample,2620,100,3,,2,true,41.98007,2.818438
+Calle de la Font de la Teula,1900,113,3,Fontajau-Domeny,,,41.99181,2.805486
+Calle Juli Garreta,1300,70,2,Eixample,5,true,41.978954,2.819229
+Canigó,2200,100,1,Barri Vell,,,41.981392,2.827009
+Calle del Riu Terri,1431,266,4,Migdia Casernes,,,41.923817,2.764141
+Calle Figuerola,1550,87,3,Devesa,3,true,41.985352,2.819772
+Calle de Santa Clara,1600,107,2,Barri Vell,4,false,41.983803,2.823177
+Calle Auriga,1500,66,2,Barri Vell,3,false,41.98231,2.825123
+Calle Migdia,2200,95,3,Migdia Casernes,2,true,41.933445,2.801671
+Calle Andalusia,1500,50,1,Talaia - Germans Sabat,,,41.994252,2.808535
+Calle Andalusia,1500,70,2,Talaia - Germans Sabat,,,41.994252,2.808535
+Calle del Carme,1600,67,2,Carme-Vistalegre,1,true,41.537097,1.659579
+Calle Andalusia,1500,70,2,Talaia - Germans Sabat,,,41.994252,2.808535
+Calle de les Ferreries Velles,1250,89,3,Barri Vell,,,41.984028,2.825042
+Avenida de Lluís Pericot,1200,127,4,Montilivi-Pericot,2,true,41.969446,2.823917
+Calle dels Calderers,1100,50,2,Barri Vell,5,false,41.987587,2.824147
+Calle Can Cases,5000,199,5,Talaia - Germans Sabat,,,41.979301,2.819944
+Montjuïc,2800,304,4,,,,41.995144,2.831818
+"Calle Jocs Olímpics de Barcelona, 31",1350,95,3,Palau,1,true,41.958578,2.820361
+Barri Vell,1800,96,3,,1,true,41.984325,2.824916
+Avenida de Sant Francesc,1650,80,2,Barri Vell,1,true,41.982422,2.821367
+Calle Barcelona,3000,200,4,Eixample,1,false,41.965464,2.812528
+Eixample,1500,156,2,,,,41.98007,2.818438
+Sant Narcís,1600,60,3,,5,true,41.97382,2.809952
+Barri Vell,2100,107,2,,2,true,41.984325,2.824916
+CL Carme,900,69,2,Carme-Vistalegre,6,true,41.975497,2.824881
+Barri Vell,2100,107,2,,1,true,41.984325,2.824916
+Calle Barcelona,1800,150,4,Eixample,1,true,41.965464,2.812528
+Calle de Santiago,1700,71,2,Migdia Casernes,,,41.968709,2.81615
+Barri Vell,1500,52,1,,4,true,41.984325,2.824916
+Calle Bisbe Lorenzana,3000,87,2,Eixample,1,true,41.978459,2.820586
+Calle Migdia,1200,130,4,Migdia Casernes,,,41.933445,2.801671
+Barri Vell,1800,71,2,,1,false,41.984325,2.824916
+Eixample,1800,101,3,,1,true,41.98007,2.818438
+Calle dels Ciutadans,1600,123,4,Barri Vell,2,true,41.983855,2.825231
+Calle del Carme,750,61,2,Carme-Vistalegre,3,true,41.537097,1.659579
+Plaza Poeta Marquina,1350,110,3,Eixample,5,true,41.980574,2.817983
+Calle Andalusia,1500,70,2,Talaia - Germans Sabat,1,false,41.994252,2.808535
+Talaia - Germans Sabat,1500,95,2,,,,42.023037,3.010996
+Calle Andalusia,1500,70,2,Talaia - Germans Sabat,1,false,41.994252,2.808535
+Avenida de Lluís Pericot,1154,118,4,Montilivi-Pericot,,,41.969446,2.823917
+Calle Migdia,1300,90,4,Migdia Casernes,1,false,41.933445,2.801671
+Calle de Pedret,1500,45,2,Montjuïc,,,41.99131,2.825809
+Barri Vell,2200,94,3,,2,true,41.984325,2.824916
+Calle Mare de Déu del Remei,1100,87,3,Sant Narcís,2,true,41.976997,2.811933
+Plaza d'Europa,1650,105,4,Sant Narcís,2,true,41.975657,2.81439
+Barri Vell,2500,124,4,,1,false,41.984325,2.824916
+Plaza del Vi,1400,100,2,Barri Vell,4,false,41.983021,2.824542
+Eixample,3000,97,2,,5,true,41.98007,2.818438
+Calle Bisbe Lorenzana,1550,110,4,Eixample,1,false,41.978459,2.820586
+Montjuïc,1500,127,4,,3,true,41.995144,2.831818
+Migdia Casernes,870,62,2,,4,true,41.923817,2.764141
+Barri Vell,640,60,2,,4,false,41.984325,2.824916
+Calle Jaume Marquès i Casanovas,990,90,3,Migdia Casernes,1,false,41.970227,2.8226
+Calle de Joan Maragall,1124,107,4,Eixample,,,41.978387,2.820337
+Barri Vell,950,110,3,,2,true,41.984325,2.824916
+Calle de Santa Eugènia,1200,78,3,Eixample,2,false,41.978551,2.809786
+Plaza d'Europa,1650,120,4,Sant Narcís,4,true,41.975657,2.81439
+"Plaza Sant Pere, 6",1270,75,2,Barri Vell,1,false,41.989691,2.825243
+Gran Via de Jaume I,800,75,2,Eixample,1,true,41.982941,2.819809
+Abeuradors,800,50,,Barri Vell,2,true,41.983438,2.824275
+Eixample,1800,142,4,,5,true,41.98007,2.818438
+Calle de Joan Maragall,3300,131,3,Eixample,,,41.978387,2.820337
+"Calle Nou, 6",1350,58,2,Barri Vell,1,true,41.983937,2.824952
+Pont Major-Pedret,1900,75,3,,2,true,42.324925,3.089238
+Carme-Vistalegre,2700,120,3,,1,true,41.975497,2.824881
+Carme-Vistalegre,2700,120,3,,5,true,41.975497,2.824881
+Carme-Vistalegre,2400,45,2,,1,true,41.975497,2.824881
+"Calle de Cristòfol Grober, 34",550,55,1,Barri Vell,1,true,41.983506,2.820898
+"Calle de Sant Joan Baptista la Salle, 6",1790,104,2,Eixample,6,true,41.977527,2.82045
+"Calle del Riu Güell, 59",1000,89,2,Devesa,2,true,41.981401,2.813302
+Barri Vell,1287,80,2,,1,true,41.984325,2.824916
+"Montseny, 41",980,120,3,Santa Eugenia,4,true,41.975583,2.805483
+Calle Bisbe Lorenzana,1735,73,1,Eixample,1,true,41.978459,2.820586
+"Calle de Sant Agustí, 46",1100,75,2,Migdia Casernes,4,true,41.970637,2.820963
+Eixample,1400,120,3,,,,41.98007,2.818438
+Calle Barcelona,1250,129,3,Eixample,5,true,41.965464,2.812528
+Migdia Casernes,1250,129,3,,5,true,41.923817,2.764141
+Barri Vell,1500,70,2,,,,41.984325,2.824916
+Calle de Sant Agustí,1100,79,2,Migdia Casernes,4,true,41.923817,2.764141
+Barri Vell,1800,70,2,,,,41.984325,2.824916
+Eixample,1500,100,3,,3,true,41.98007,2.818438
+Barri Vell,1150,90,3,,5,true,41.984325,2.824916
+Calle de Sant Joan Baptista la Salle,1150,65,3,Eixample,,,41.977527,2.82045
+CL Cardenal Margarit,1050,59,3,Eixample,4,true,41.976658,2.821332
+"Calle de la Cort Reial, 15",1200,75,3,Barri Vell,3,true,41.984754,2.824947
+"Calle Bonastruc de Porta, 16",1130,110,3,Devesa,1,false,41.984809,2.819173
+Eixample,1500,60,2,,2,true,41.98007,2.818438
+Barri Vell,690,65,2,,1,false,41.984325,2.824916
+Barri Vell,1600,62,3,,3,false,41.984325,2.824916
+Calle de Bilbao,1290,97,3,Sant Narcís,2,true,41.969428,2.809759
+Devesa,1250,89,2,,5,true,42.050556,3.191425
+Calle Isabel la Catòlica,1190,88,3,Carme-Vistalegre,3,true,41.567084,1.641284
+Calle Narcís Blanch,1200,108,3,Migdia Casernes,2,true,41.923817,2.764141
+"Calle Narcís Blanch, 39",900,70,1,Migdia Casernes,4,true,41.970037,2.817763
+"Calle dels Calderers, 12",990,80,2,Barri Vell,1,false,41.987702,2.824236
+"Travesía de la Creu, 21",1200,80,2,Eixample,,,41.97593,2.821806
+Carme-Vistalegre,1125,128,3,,3,true,41.975497,2.824881
+"Rotonda de la Devesa, 1",1200,82,3,Devesa,1,true,42.250566,2.940944
+"Rda. de San Antonio María Claret, 27",1450,55,1,Eixample,1,false,41.888374,2.741508
+"Ronda Pare Maria Claret, 41",1200,94,3,Eixample,5,true,41.98007,2.818438
+"Plaza de Sant Pere, 3",1200,79,2,Barri Vell,3,true,41.989467,2.825167
+Fontajau-Domeny,1100,88,3,,7,true,41.992573,2.789045
+"Calle Migdia, 66",1000,119,1,Migdia Casernes,2,true,41.954811,2.792933

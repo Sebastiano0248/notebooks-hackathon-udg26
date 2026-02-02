@@ -1,4 +1,4 @@
-# Data Science Project Template
+# Notebooks for UdG Hackathon 2026
 
 This repository contains the notebooks for the UdG Hackathon 2026. It is structured to facilitate data analysis, model development, and experimentation.
 

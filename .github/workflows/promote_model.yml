@@ -57,7 +57,7 @@ jobs:
       - name: Checkout Django Repo
         uses: actions/checkout@v6
         with:
-          repository: mzanki/model-hackathon-udg26
+          repository: mzanki/model-api-hackathon-udg26
           path: backend
           token: ${{ secrets.API_REPO_PAT }}
 

@@ -4,7 +4,7 @@ name: Quality Gate
 on: [workflow_call]
 
 jobs:
-  quality_gate:
+  quality-gate:
     runs-on: ubuntu-latest
 
     steps:

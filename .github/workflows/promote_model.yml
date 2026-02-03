@@ -6,7 +6,10 @@ on:
       - 'model-v*'
 
 jobs:
+  quality_gate:
+    uses: ./.github/workflows/quality_gate.yml
   promote:
+    needs: [quality_gate]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Notebook Repo

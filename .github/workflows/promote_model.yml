@@ -60,22 +60,31 @@ jobs:
 
       - name: Transfer Files
         run: |
-          # Define where in Django the model lives
-          DEST_DIR="src/ml_resources"
+          # 1. FIX: Include 'backend/' in the path so we write INSIDE the repo
+          DEST_DIR="backend/src/ml_resources"
 
-          # Ensure destination exists
+          echo "📂 Creating destination directory: $DEST_DIR"
           mkdir -p $DEST_DIR
 
-          # Remove old version (clean slate)
+          # 2. Remove old version (clean slate)
           rm -f $DEST_DIR/model.pkl
           rm -f $DEST_DIR/transformers.py
 
-          # Copy new version from artifacts folder
+          # 3. Copy new version from artifacts folder
+          echo "🚚 Copying artifacts..."
           cp artifacts/model.pkl $DEST_DIR/
           cp artifacts/transformers.py $DEST_DIR/
 
-          # Verify copy
+          # 4. Verify copy
           ls -l $DEST_DIR
+
+          # 5. FORCE STAGE FILES (The Safety Net)
+          # We need to tell Git: "I don't care about .gitignore, track these files!"
+          cd backend
+
+          # Configure a dummy user so git commands work
+          git config --global user.email "bot@hackathon.com"
+          git config --global user.name "Model Bot"
 
       # ----------------------------------------------------------------
       # PART 3: OPEN PULL REQUEST

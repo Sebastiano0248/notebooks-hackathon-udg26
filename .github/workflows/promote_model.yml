@@ -1,0 +1,108 @@
+name: Promote Model to Production
+
+on:
+  push:
+    tags:
+      - 'model-v*'
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Notebook Repo
+        uses: actions/checkout@v6
+        with:
+          path: notebooks
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: |
+          pip install pandas scikit-learn joblib
+          # Add requirements.txt if you have one: pip install -r notebooks/requirements.txt
+
+      - name: Run Export Script
+        env:
+          # Load the variable from GitHub Settings
+          USE_DUMMY: ${{ vars.USE_DUMMY_MODE }}
+        run: |
+          # Create a temp folder for artifacts
+          mkdir artifacts
+
+          # Run the python script we created in Step 1
+          # We execute it from the 'notebooks' directory context
+          cd notebooks
+
+          if [ "$USE_DUMMY" == "true" ]; then
+            FLAG="--is_dummy"
+            echo "⚠️  Running in Dummy Mode"
+          else
+            FLAG=""
+            echo "✅ Running in Real Mode"
+          fi
+
+
+          python src/export_model.py --output_dir ../artifacts $FLAG
+
+      # ----------------------------------------------------------------
+      # PART 2: DELIVER TO DJANGO REPO
+      # ----------------------------------------------------------------
+
+      - name: Checkout Django Repo
+        uses: actions/checkout@v6
+        with:
+          repository: mzanki/model-hackathon-udg26
+          path: backend
+          token: ${{ secrets.API_REPO_PAT }}
+
+      - name: Transfer Files
+        run: |
+          # Define where in Django the model lives
+          DEST_DIR="src/ml_resources"
+
+          # Ensure destination exists
+          mkdir -p $DEST_DIR
+
+          # Remove old version (clean slate)
+          rm -f $DEST_DIR/model.pkl
+          rm -f $DEST_DIR/transformers.py
+
+          # Copy new version from artifacts folder
+          cp artifacts/model.pkl $DEST_DIR/
+          cp artifacts/transformers.py $DEST_DIR/
+
+          # Verify copy
+          ls -l $DEST_DIR
+
+      # ----------------------------------------------------------------
+      # PART 3: OPEN PULL REQUEST
+      # ----------------------------------------------------------------
+
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.API_REPO_PAT }}
+          path: backend
+
+          # Bot Configuration
+          commit-message: "feat: update model to ${{ github.ref_name }}"
+          title: "🤖 Promote Model: ${{ github.ref_name }}"
+          body: |
+            ### 🤖 Automated Model Promotion
+
+            **Source Tag:** `${{ github.ref_name }}`
+
+            **Manifest:**
+            - Model files...
+
+            **Action Required:**
+            1. Review  changes.
+            2. Merge this PR to trigger EC2 Deployment.
+
+          # "Single Slot" Logic:
+          branch: "bot/incoming-model"
+          base: main
+          delete-branch: false

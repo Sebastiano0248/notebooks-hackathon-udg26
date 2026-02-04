@@ -1,0 +1,9 @@
+name: On Push Main
+
+on:
+  push:
+    branches: ["master", "main"]
+
+jobs:
+  quality-gate:
+    uses: ./.github/workflows/quality_gate.yml

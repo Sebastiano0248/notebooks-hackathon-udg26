@@ -1,0 +1,120 @@
+name: Promote Model to Production
+
+on:
+  push:
+    tags:
+      - 'model-v*'
+
+jobs:
+  quality-gate:
+    uses: ./.github/workflows/quality_gate.yml
+  promote-to-apimodel-repo:
+    needs: [quality-gate]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Notebook Repo
+        uses: actions/checkout@v6
+        with:
+          path: notebooks
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: |
+          pip install pandas scikit-learn joblib
+          # Add requirements.txt if you have one: pip install -r notebooks/requirements.txt
+
+      - name: Run Export Script
+        env:
+          # Load the variable from GitHub Settings
+          USE_DUMMY: ${{ vars.USE_DUMMY_MODE }}
+        run: |
+          # Create a temp folder for artifacts
+          mkdir artifacts
+
+          # Run the python script we created in Step 1
+          # We execute it from the 'notebooks' directory context
+          cd notebooks
+
+          if [ "$USE_DUMMY" == "true" ]; then
+            FLAG="--is_dummy"
+            echo "⚠️  Running in Dummy Mode"
+          else
+            FLAG=""
+            echo "✅ Running in Real Mode"
+          fi
+
+
+          python src/export_model.py --output_dir ../artifacts $FLAG
+
+      # ----------------------------------------------------------------
+      # PART 2: DELIVER TO DJANGO REPO
+      # ----------------------------------------------------------------
+
+      - name: Checkout Django Repo
+        uses: actions/checkout@v6
+        with:
+          repository: mzanki/model-api-hackathon-udg26
+          path: backend
+          token: ${{ secrets.API_REPO_PAT }}
+
+      - name: Transfer Files
+        run: |
+          # 1. FIX: Include 'backend/' in the path so we write INSIDE the repo
+          DEST_DIR="backend/src/ml_resources"
+
+          echo "📂 Creating destination directory: $DEST_DIR"
+          mkdir -p $DEST_DIR
+
+          # 2. Remove old version (clean slate)
+          rm -f $DEST_DIR/model.pkl
+          rm -f $DEST_DIR/transformers.py
+
+          # 3. Copy new version from artifacts folder
+          echo "🚚 Copying artifacts..."
+          cp artifacts/model.pkl $DEST_DIR/
+          cp artifacts/transformers.py $DEST_DIR/
+
+          # 4. Verify copy
+          ls -l $DEST_DIR
+
+          # 5. FORCE STAGE FILES (The Safety Net)
+          # We need to tell Git: "I don't care about .gitignore, track these files!"
+          cd backend
+
+          # Configure a dummy user so git commands work
+          git config --global user.email "bot@hackathon.com"
+          git config --global user.name "Model Bot"
+
+      # ----------------------------------------------------------------
+      # PART 3: OPEN PULL REQUEST
+      # ----------------------------------------------------------------
+
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.API_REPO_PAT }}
+          path: backend
+
+          # Bot Configuration
+          commit-message: "feat: update model to ${{ github.ref_name }}"
+          title: "🤖 Promote Model: ${{ github.ref_name }}"
+          body: |
+            ### 🤖 Automated Model Promotion
+
+            **Source Tag:** `${{ github.ref_name }}`
+
+            **Manifest:**
+            - Model files...
+
+            **Action Required:**
+            1. Review  changes.
+            2. Merge this PR to trigger EC2 Deployment.
+
+          # "Single Slot" Logic:
+          branch: "bot/incoming-model"
+          base: main
+          delete-branch: false

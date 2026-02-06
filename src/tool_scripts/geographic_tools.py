@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import folium
 import geopandas as gpd
 import pandas as pd
@@ -6,8 +8,11 @@ from shapely.geometry import Point
 
 from constants import ADD_RAW_OG_DATA, CENS_TRACT_COL, LAT_COL, LON_COL, OUTPUT_DATA
 
-# Cargar shapefile de secciones censales
-CENSUS_GDF = gpd.read_file(f"{ADD_RAW_OG_DATA}/seccionado_2025/SECC_CE_20250101.shp")
+# Ruta al ZIP que contiene tu Shapefile
+zip_path = Path(f"{ADD_RAW_OG_DATA}/INE_SECCIONS_2025-SECC_CE_20250101.zip")
+
+# geopandas puede leer directamente desde un zip usando esta sintaxis:
+CENSUS_GDF = gpd.read_file(f"zip://{zip_path}!SECC_CE_20250101.shp")
 
 
 def add_cusec_column(
@@ -32,7 +37,8 @@ def add_cusec_column(
     gdf = gpd.GeoDataFrame(df, geometry=geometry, crs="EPSG:4326")  # WGS84
 
     # Asegurar que ambos GeoDataFrames estén en la misma proyección
-    gdf = gdf.to_crs(CENSUS_GDF.crs)
+    if CENSUS_GDF.crs is not None:
+        gdf = gdf.to_crs(CENSUS_GDF.crs)
 
     # Hacer spatial join para asignar CUSEC
     merged = gpd.sjoin(
@@ -72,7 +78,7 @@ def crear_mapa(
         folium.GeoJson(
             CENSUS_GDF.to_crs("EPSG:4326"),
             name="Secciones Censales",
-            style_function=lambda x: {
+            style_function=lambda _: {
                 "fillColor": "#ffff00",
                 "color": "black",
                 "weight": 0.5,
@@ -81,12 +87,12 @@ def crear_mapa(
         ).add_to(m)
 
     # Agregar cluster de marcadores
-    m = folium.Map(location=[df.lat.mean(), df.lon.mean()], zoom_start=12)
+    m = folium.Map(location=[df[lat_col].mean(), df[lon_col].mean()], zoom_start=12)
     marker_cluster = MarkerCluster().add_to(m)
 
     for _, row in df.iterrows():
         folium.CircleMarker(
-            location=[row.lat, row.lon],
+            location=[row[lat_col], row[lon_col]],
             radius=5,
             color="red",
             fill=True,

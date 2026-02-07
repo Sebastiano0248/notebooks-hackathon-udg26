@@ -1,0 +1,2663 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe2b83262619c4ba774b14209a37071e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+
+
+            <div class="folium-map" id="map_fe2b83262619c4ba774b14209a37071e" ></div>
+
+</body>
+<script>
+
+
+            var map_fe2b83262619c4ba774b14209a37071e = L.map(
+                "map_fe2b83262619c4ba774b14209a37071e",
+                {
+                    center: [41.980838963636366, 2.820491818181819],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+
+
+
+
+            var tile_layer_49e5404f043669fbd20af0593e7b1554 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+
+
+            tile_layer_49e5404f043669fbd20af0593e7b1554.addTo(map_fe2b83262619c4ba774b14209a37071e);
+
+
+            var marker_cluster_acbb08726f8f89fbc2389277c8dde96b = L.markerClusterGroup(
+                {
+}
+            );
+
+
+            var circle_marker_3ee7d8c0bbbd5efe406ef7474497c07c = L.circleMarker(
+                [41.976921, 2.824609],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_6f1fac97a11df19b02d6b71a02d7be13 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_25ef32ef56a2153d11c9982d510ee824 = $(`<div id="html_25ef32ef56a2153d11c9982d510ee824" style="width: 100.0%; height: 100.0%;">address: Calle Doctor Pascual i Prats, 1<br>price: 750<br>area: 50<br>rooms: 1.0<br>neighbourhood: Carme-Vistalegre<br>floors: 1.0<br>elevator: False<br>lat: 41.976921<br>lon: 2.824609<br>census_tract: 1707901003</div>`)[0];
+                popup_6f1fac97a11df19b02d6b71a02d7be13.setContent(html_25ef32ef56a2153d11c9982d510ee824);
+
+
+
+        circle_marker_3ee7d8c0bbbd5efe406ef7474497c07c.bindPopup(popup_6f1fac97a11df19b02d6b71a02d7be13)
+        ;
+
+
+
+
+            var circle_marker_376a8658848945239fa01e847b0600fd = L.circleMarker(
+                [41.98511, 2.81703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_74d30a52667abdaa0a1a888072c2bcb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_60db50c6ceedf571e9250c2a97661ad8 = $(`<div id="html_60db50c6ceedf571e9250c2a97661ad8" style="width: 100.0%; height: 100.0%;">address: Ronda Ferran Puig<br>price: 1350<br>area: 108<br>rooms: 3.0<br>neighbourhood: Devesa<br>floors: 4.0<br>elevator: True<br>lat: 41.98511<br>lon: 2.81703<br>census_tract: 1707903004</div>`)[0];
+                popup_74d30a52667abdaa0a1a888072c2bcb2.setContent(html_60db50c6ceedf571e9250c2a97661ad8);
+
+
+
+        circle_marker_376a8658848945239fa01e847b0600fd.bindPopup(popup_74d30a52667abdaa0a1a888072c2bcb2)
+        ;
+
+
+
+
+            var circle_marker_4b06c70797fc923e102867361508a3eb = L.circleMarker(
+                [41.985732, 2.82489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_54ffc8c8926614add3b552019f31b1ce = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3d143ac8ffa3751317b628e10bdea903 = $(`<div id="html_3d143ac8ffa3751317b628e10bdea903" style="width: 100.0%; height: 100.0%;">address: Calle de les Ballesteries, 15<br>price: 1020<br>area: 87<br>rooms: 1.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: False<br>lat: 41.985732<br>lon: 2.82489<br>census_tract: 1707904001</div>`)[0];
+                popup_54ffc8c8926614add3b552019f31b1ce.setContent(html_3d143ac8ffa3751317b628e10bdea903);
+
+
+
+        circle_marker_4b06c70797fc923e102867361508a3eb.bindPopup(popup_54ffc8c8926614add3b552019f31b1ce)
+        ;
+
+
+
+
+            var circle_marker_1fbfa87acf7c284949f662a61d00eb34 = L.circleMarker(
+                [41.985791, 2.819352],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b83596eccb61b36c945a9382b7dcd177 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0346bbfa4c35e39b80556a84f1957b1d = $(`<div id="html_0346bbfa4c35e39b80556a84f1957b1d" style="width: 100.0%; height: 100.0%;">address: Calle del Riu Güell, 3<br>price: 2700<br>area: 190<br>rooms: 2.0<br>neighbourhood: Devesa<br>floors: 3.0<br>elevator: True<br>lat: 41.985791<br>lon: 2.819352<br>census_tract: 1707903003</div>`)[0];
+                popup_b83596eccb61b36c945a9382b7dcd177.setContent(html_0346bbfa4c35e39b80556a84f1957b1d);
+
+
+
+        circle_marker_1fbfa87acf7c284949f662a61d00eb34.bindPopup(popup_b83596eccb61b36c945a9382b7dcd177)
+        ;
+
+
+
+
+            var circle_marker_1001d83d67f2463681e881b1b94acd9a = L.circleMarker(
+                [41.978423, 2.818067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_9d8deeb65718218019c8c3ef91519eb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_c9fcc42e2e0dd3c7b799116876f6dbe3 = $(`<div id="html_c9fcc42e2e0dd3c7b799116876f6dbe3" style="width: 100.0%; height: 100.0%;">address: Calle Barcelona, 43<br>price: 2200<br>area: 100<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 4.0<br>elevator: True<br>lat: 41.978423<br>lon: 2.818067<br>census_tract: 1707902005</div>`)[0];
+                popup_9d8deeb65718218019c8c3ef91519eb2.setContent(html_c9fcc42e2e0dd3c7b799116876f6dbe3);
+
+
+
+        circle_marker_1001d83d67f2463681e881b1b94acd9a.bindPopup(popup_9d8deeb65718218019c8c3ef91519eb2)
+        ;
+
+
+
+
+            var circle_marker_815ba8c4f80521a804b9a452074e5c6a = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_c547648f7b5b5d39a98f4897caadc5d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_1450fd6b312aff654b9f3e76718e16ba = $(`<div id="html_1450fd6b312aff654b9f3e76718e16ba" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 3400<br>area: 131<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 3.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_c547648f7b5b5d39a98f4897caadc5d8.setContent(html_1450fd6b312aff654b9f3e76718e16ba);
+
+
+
+        circle_marker_815ba8c4f80521a804b9a452074e5c6a.bindPopup(popup_c547648f7b5b5d39a98f4897caadc5d8)
+        ;
+
+
+
+
+            var circle_marker_11392c3c363691ed7d5c8f92c212470c = L.circleMarker(
+                [41.978559, 2.813899],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_5d451d6a35053dad35750bfabbe41519 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_891ab0a942b2c6767e6fcff250a4a88d = $(`<div id="html_891ab0a942b2c6767e6fcff250a4a88d" style="width: 100.0%; height: 100.0%;">address: Avenida de Sant Narcís, 18<br>price: 1550<br>area: 108<br>rooms: 4.0<br>neighbourhood: Sant Narcís<br>floors: 5.0<br>elevator: True<br>lat: 41.978559<br>lon: 2.813899<br>census_tract: 1707903015</div>`)[0];
+                popup_5d451d6a35053dad35750bfabbe41519.setContent(html_891ab0a942b2c6767e6fcff250a4a88d);
+
+
+
+        circle_marker_11392c3c363691ed7d5c8f92c212470c.bindPopup(popup_5d451d6a35053dad35750bfabbe41519)
+        ;
+
+
+
+
+            var circle_marker_8aab7b7f32ef8c2f49169de7d44ae538 = L.circleMarker(
+                [41.976567, 2.820736],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_a8bd01bef450ab91e1489e9f4c375764 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_49e8a318fb657395da383a3762940189 = $(`<div id="html_49e8a318fb657395da383a3762940189" style="width: 100.0%; height: 100.0%;">address: Calle Migdia, 16<br>price: 1800<br>area: 96<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.976567<br>lon: 2.820736<br>census_tract: 1707902006</div>`)[0];
+                popup_a8bd01bef450ab91e1489e9f4c375764.setContent(html_49e8a318fb657395da383a3762940189);
+
+
+
+        circle_marker_8aab7b7f32ef8c2f49169de7d44ae538.bindPopup(popup_a8bd01bef450ab91e1489e9f4c375764)
+        ;
+
+
+
+
+            var circle_marker_24bca9b19f7a87f6f3333398c25b2dc0 = L.circleMarker(
+                [41.991329, 2.815752],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_2c0b5ed8dc72831e3a632b756741bf7a = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_7f339f8e4739ea3354eeb32aba700e89 = $(`<div id="html_7f339f8e4739ea3354eeb32aba700e89" style="width: 100.0%; height: 100.0%;">address: Calle de Fontajau<br>price: 1000<br>area: 65<br>rooms: 3.0<br>neighbourhood: Fontajau-Domeny<br>floors: nan<br>elevator: nan<br>lat: 41.991329<br>lon: 2.815752<br>census_tract: 1707906001</div>`)[0];
+                popup_2c0b5ed8dc72831e3a632b756741bf7a.setContent(html_7f339f8e4739ea3354eeb32aba700e89);
+
+
+
+        circle_marker_24bca9b19f7a87f6f3333398c25b2dc0.bindPopup(popup_2c0b5ed8dc72831e3a632b756741bf7a)
+        ;
+
+
+
+
+            var circle_marker_c26fe1798cfacae64beeafa2319344b0 = L.circleMarker(
+                [41.973349, 2.829866],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_e2b108ca30ab992ce6cca3d9ac8b9170 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_6e39fe9be09fdcfd6a812f76c803a7c2 = $(`<div id="html_6e39fe9be09fdcfd6a812f76c803a7c2" style="width: 100.0%; height: 100.0%;">address: Calle Emili Grahit<br>price: 2600<br>area: 164<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: 4.0<br>elevator: False<br>lat: 41.973349<br>lon: 2.829866<br>census_tract: 1707902014</div>`)[0];
+                popup_e2b108ca30ab992ce6cca3d9ac8b9170.setContent(html_6e39fe9be09fdcfd6a812f76c803a7c2);
+
+
+
+        circle_marker_c26fe1798cfacae64beeafa2319344b0.bindPopup(popup_e2b108ca30ab992ce6cca3d9ac8b9170)
+        ;
+
+
+
+
+            var circle_marker_8cd2653f05e56d02e66f7d98c9658837 = L.circleMarker(
+                [41.965464, 2.812528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_6fb0e428181b93321e7ee7900094fb69 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_eeb1242c15b03ce2cf911cc5a05e9263 = $(`<div id="html_eeb1242c15b03ce2cf911cc5a05e9263" style="width: 100.0%; height: 100.0%;">address: Calle Barcelona<br>price: 1600<br>area: 155<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.965464<br>lon: 2.812528<br>census_tract: 1707902022</div>`)[0];
+                popup_6fb0e428181b93321e7ee7900094fb69.setContent(html_eeb1242c15b03ce2cf911cc5a05e9263);
+
+
+
+        circle_marker_8cd2653f05e56d02e66f7d98c9658837.bindPopup(popup_6fb0e428181b93321e7ee7900094fb69)
+        ;
+
+
+
+
+            var circle_marker_91717b51add7e13b7f73f6ae0f86cd57 = L.circleMarker(
+                [41.990974, 2.826301],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_159c1246d8d2a8e70b5ca18520195634 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_421a109cd45284b7f65159586baf9e9f = $(`<div id="html_421a109cd45284b7f65159586baf9e9f" style="width: 100.0%; height: 100.0%;">address: Calle de Pedret, 14<br>price: 1600<br>area: 65<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: False<br>lat: 41.990974<br>lon: 2.826301<br>census_tract: 1707905002</div>`)[0];
+                popup_159c1246d8d2a8e70b5ca18520195634.setContent(html_421a109cd45284b7f65159586baf9e9f);
+
+
+
+        circle_marker_91717b51add7e13b7f73f6ae0f86cd57.bindPopup(popup_159c1246d8d2a8e70b5ca18520195634)
+        ;
+
+
+
+
+            var circle_marker_6f367d6bcc23dfce9a12150dfc9a4983 = L.circleMarker(
+                [41.97382, 2.809952],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_535832880eb6427ca2f4b4012df7cd9f = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_442cfefb1d3528fa44eb9cc414761a31 = $(`<div id="html_442cfefb1d3528fa44eb9cc414761a31" style="width: 100.0%; height: 100.0%;">address: Plaza europa, s/n<br>price: 1650<br>area: 110<br>rooms: 4.0<br>neighbourhood: Sant Narcís<br>floors: 4.0<br>elevator: True<br>lat: 41.97382<br>lon: 2.809952<br>census_tract: 1707903006</div>`)[0];
+                popup_535832880eb6427ca2f4b4012df7cd9f.setContent(html_442cfefb1d3528fa44eb9cc414761a31);
+
+
+
+        circle_marker_6f367d6bcc23dfce9a12150dfc9a4983.bindPopup(popup_535832880eb6427ca2f4b4012df7cd9f)
+        ;
+
+
+
+
+            var circle_marker_5bf9319ea8bd786e70afa183af237ec7 = L.circleMarker(
+                [41.98231, 2.825123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_28bcb3611b95985823687c9ed5aee7e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_bd924658a55a9ec758d4104280d0f9b9 = $(`<div id="html_bd924658a55a9ec758d4104280d0f9b9" style="width: 100.0%; height: 100.0%;">address: Calle Auriga<br>price: 1495<br>area: 90<br>rooms: 3.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: True<br>lat: 41.98231<br>lon: 2.825123<br>census_tract: 1707901001</div>`)[0];
+                popup_28bcb3611b95985823687c9ed5aee7e0.setContent(html_bd924658a55a9ec758d4104280d0f9b9);
+
+
+
+        circle_marker_5bf9319ea8bd786e70afa183af237ec7.bindPopup(popup_28bcb3611b95985823687c9ed5aee7e0)
+        ;
+
+
+
+
+            var circle_marker_188d809f905b2ed2fcb53b8091b0d61f = L.circleMarker(
+                [41.986073, 2.824818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_98e437e61115653583e73152b1a59837 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_53c4ed1a577bb7339c06f4a4bee79ce9 = $(`<div id="html_53c4ed1a577bb7339c06f4a4bee79ce9" style="width: 100.0%; height: 100.0%;">address: Calle de les Ballesteries<br>price: 1100<br>area: 50<br>rooms: 1.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: False<br>lat: 41.986073<br>lon: 2.824818<br>census_tract: 1707904001</div>`)[0];
+                popup_98e437e61115653583e73152b1a59837.setContent(html_53c4ed1a577bb7339c06f4a4bee79ce9);
+
+
+
+        circle_marker_188d809f905b2ed2fcb53b8091b0d61f.bindPopup(popup_98e437e61115653583e73152b1a59837)
+        ;
+
+
+
+
+            var circle_marker_3278713f5cf319203fdfbdc6b65dc87e = L.circleMarker(
+                [41.984288, 2.826062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_186ebf732e5bf419eb05b25ce1961c97 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_53c9f66b3c1ba51b42b193c1ba3c27b7 = $(`<div id="html_53c9f66b3c1ba51b42b193c1ba3c27b7" style="width: 100.0%; height: 100.0%;">address: Pujada de Sant Martí<br>price: 750<br>area: 54<br>rooms: nan<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: False<br>lat: 41.984288<br>lon: 2.826062<br>census_tract: 1707904001</div>`)[0];
+                popup_186ebf732e5bf419eb05b25ce1961c97.setContent(html_53c9f66b3c1ba51b42b193c1ba3c27b7);
+
+
+
+        circle_marker_3278713f5cf319203fdfbdc6b65dc87e.bindPopup(popup_186ebf732e5bf419eb05b25ce1961c97)
+        ;
+
+
+
+
+            var circle_marker_211eccbb66191306e68c6c8f82d470c1 = L.circleMarker(
+                [41.984028, 2.825042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_4efe0835ae87ee0392cca3a70fa7fa47 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_8249fe65e9f2eac0b0a770ef8011a506 = $(`<div id="html_8249fe65e9f2eac0b0a770ef8011a506" style="width: 100.0%; height: 100.0%;">address: Calle de les Ferreries Velles<br>price: 1250<br>area: 89<br>rooms: 3.0<br>neighbourhood: Barri Vell<br>floors: nan<br>elevator: nan<br>lat: 41.984028<br>lon: 2.825042<br>census_tract: 1707901001</div>`)[0];
+                popup_4efe0835ae87ee0392cca3a70fa7fa47.setContent(html_8249fe65e9f2eac0b0a770ef8011a506);
+
+
+
+        circle_marker_211eccbb66191306e68c6c8f82d470c1.bindPopup(popup_4efe0835ae87ee0392cca3a70fa7fa47)
+        ;
+
+
+
+
+            var circle_marker_ff6b147920ca37802fd253dfca42afd0 = L.circleMarker(
+                [41.981407, 2.821286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_fcbad4fdc1e3617d9a7424b9420fccd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_cedecf27d9f73f8a140720709247876d = $(`<div id="html_cedecf27d9f73f8a140720709247876d" style="width: 100.0%; height: 100.0%;">address: Paseo de la Devesa<br>price: 680<br>area: 35<br>rooms: 1.0<br>neighbourhood: Devesa<br>floors: 4.0<br>elevator: True<br>lat: 41.981407<br>lon: 2.821286<br>census_tract: 1707902001</div>`)[0];
+                popup_fcbad4fdc1e3617d9a7424b9420fccd2.setContent(html_cedecf27d9f73f8a140720709247876d);
+
+
+
+        circle_marker_ff6b147920ca37802fd253dfca42afd0.bindPopup(popup_fcbad4fdc1e3617d9a7424b9420fccd2)
+        ;
+
+
+
+
+            var circle_marker_dcd033311685083d58032392b983de9e = L.circleMarker(
+                [41.986245, 2.825205],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_169c92a498d418189a85f9412a74ad7e = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0e2671f3b6f3350c168da3ca7552bbf9 = $(`<div id="html_0e2671f3b6f3350c168da3ca7552bbf9" style="width: 100.0%; height: 100.0%;">address: Calle de la Força<br>price: 1300<br>area: 96<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: True<br>lat: 41.986245<br>lon: 2.825205<br>census_tract: 1707904001</div>`)[0];
+                popup_169c92a498d418189a85f9412a74ad7e.setContent(html_0e2671f3b6f3350c168da3ca7552bbf9);
+
+
+
+        circle_marker_dcd033311685083d58032392b983de9e.bindPopup(popup_169c92a498d418189a85f9412a74ad7e)
+        ;
+
+
+
+
+            var circle_marker_8d2cdfeefe50fedad18d328e936f9edc = L.circleMarker(
+                [41.986864, 2.826046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_7eb0ee63d997c257e94be7bd970eb830 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_f80a514d54fd14f5bc0cbb5ff7a78162 = $(`<div id="html_f80a514d54fd14f5bc0cbb5ff7a78162" style="width: 100.0%; height: 100.0%;">address: Pujada de la Catedral<br>price: 1124<br>area: 71<br>rooms: 1.0<br>neighbourhood: Barri Vell<br>floors: 2.0<br>elevator: False<br>lat: 41.986864<br>lon: 2.826046<br>census_tract: 1707904001</div>`)[0];
+                popup_7eb0ee63d997c257e94be7bd970eb830.setContent(html_f80a514d54fd14f5bc0cbb5ff7a78162);
+
+
+
+        circle_marker_8d2cdfeefe50fedad18d328e936f9edc.bindPopup(popup_7eb0ee63d997c257e94be7bd970eb830)
+        ;
+
+
+
+
+            var circle_marker_2fffeeca69a4cbd53c0da117c9ff9abe = L.circleMarker(
+                [41.978459, 2.820586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_580e1283481e683e372426c107ed2055 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_2fbd0ca9c3a9bdf8630cb232f073d8d8 = $(`<div id="html_2fbd0ca9c3a9bdf8630cb232f073d8d8" style="width: 100.0%; height: 100.0%;">address: Calle Bisbe Lorenzana<br>price: 2304<br>area: 87<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.978459<br>lon: 2.820586<br>census_tract: 1707902004</div>`)[0];
+                popup_580e1283481e683e372426c107ed2055.setContent(html_2fbd0ca9c3a9bdf8630cb232f073d8d8);
+
+
+
+        circle_marker_2fffeeca69a4cbd53c0da117c9ff9abe.bindPopup(popup_580e1283481e683e372426c107ed2055)
+        ;
+
+
+
+
+            var circle_marker_e023b0c394417a6b24e19d4638c25fbf = L.circleMarker(
+                [41.975942, 2.821747],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_836ea80830cb70b1eda0be118ec0d9fe = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_1a1eecf675cb3173415e90b86f574d58 = $(`<div id="html_1a1eecf675cb3173415e90b86f574d58" style="width: 100.0%; height: 100.0%;">address: Travesía de la Creu<br>price: 1200<br>area: 90<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.975942<br>lon: 2.821747<br>census_tract: 1707902006</div>`)[0];
+                popup_836ea80830cb70b1eda0be118ec0d9fe.setContent(html_1a1eecf675cb3173415e90b86f574d58);
+
+
+
+        circle_marker_e023b0c394417a6b24e19d4638c25fbf.bindPopup(popup_836ea80830cb70b1eda0be118ec0d9fe)
+        ;
+
+
+
+
+            var circle_marker_2eed8031474a2325d199c7a76f0e1109 = L.circleMarker(
+                [41.97363, 2.826648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_d2f9319567298333c7f4677ca4394cb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_777906e42f4952572f16a1a9142191a1 = $(`<div id="html_777906e42f4952572f16a1a9142191a1" style="width: 100.0%; height: 100.0%;">address: Montilivi-Pericot<br>price: 2500<br>area: 249<br>rooms: 4.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.97363<br>lon: 2.826648<br>census_tract: 1707902009</div>`)[0];
+                popup_d2f9319567298333c7f4677ca4394cb2.setContent(html_777906e42f4952572f16a1a9142191a1);
+
+
+
+        circle_marker_2eed8031474a2325d199c7a76f0e1109.bindPopup(popup_d2f9319567298333c7f4677ca4394cb2)
+        ;
+
+
+
+
+            var circle_marker_5cf6d0a71b2d2de2649d210836578f2b = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_ba579e2ecf5ac2443d0b77202f43e25e = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_2988fa2783f1645cdae171b31b5812a9 = $(`<div id="html_2988fa2783f1645cdae171b31b5812a9" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 2300<br>area: 90<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_ba579e2ecf5ac2443d0b77202f43e25e.setContent(html_2988fa2783f1645cdae171b31b5812a9);
+
+
+
+        circle_marker_5cf6d0a71b2d2de2649d210836578f2b.bindPopup(popup_ba579e2ecf5ac2443d0b77202f43e25e)
+        ;
+
+
+
+
+            var circle_marker_e1025ce5dadc248cbfefaa48e6db3080 = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_450ede92d9adc11de64e36330c87c322 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ba6e9391bb131cb13b07ec235a1e9d1a = $(`<div id="html_ba6e9391bb131cb13b07ec235a1e9d1a" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 2620<br>area: 100<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_450ede92d9adc11de64e36330c87c322.setContent(html_ba6e9391bb131cb13b07ec235a1e9d1a);
+
+
+
+        circle_marker_e1025ce5dadc248cbfefaa48e6db3080.bindPopup(popup_450ede92d9adc11de64e36330c87c322)
+        ;
+
+
+
+
+            var circle_marker_5a1f152c9f2ca5a329b79458cdb453ad = L.circleMarker(
+                [41.99181, 2.805486],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_931cb952d9354503bdf11d5d56604533 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_fa2dfb33a7d76333ff07a872e45d4be1 = $(`<div id="html_fa2dfb33a7d76333ff07a872e45d4be1" style="width: 100.0%; height: 100.0%;">address: Calle de la Font de la Teula<br>price: 1900<br>area: 113<br>rooms: 3.0<br>neighbourhood: Fontajau-Domeny<br>floors: nan<br>elevator: nan<br>lat: 41.99181<br>lon: 2.805486<br>census_tract: 1707906004</div>`)[0];
+                popup_931cb952d9354503bdf11d5d56604533.setContent(html_fa2dfb33a7d76333ff07a872e45d4be1);
+
+
+
+        circle_marker_5a1f152c9f2ca5a329b79458cdb453ad.bindPopup(popup_931cb952d9354503bdf11d5d56604533)
+        ;
+
+
+
+
+            var circle_marker_656a4b38ea8337454dd2bc2582505939 = L.circleMarker(
+                [41.978954, 2.819229],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_3fd9a267ed6ac7a68a6ffbd264d2cd19 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_777de4e4f1558ff56277bbc2120c487f = $(`<div id="html_777de4e4f1558ff56277bbc2120c487f" style="width: 100.0%; height: 100.0%;">address: Calle Juli Garreta<br>price: 1300<br>area: 70<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: 5.0<br>elevator: True<br>lat: 41.978954<br>lon: 2.819229<br>census_tract: 1707902003</div>`)[0];
+                popup_3fd9a267ed6ac7a68a6ffbd264d2cd19.setContent(html_777de4e4f1558ff56277bbc2120c487f);
+
+
+
+        circle_marker_656a4b38ea8337454dd2bc2582505939.bindPopup(popup_3fd9a267ed6ac7a68a6ffbd264d2cd19)
+        ;
+
+
+
+
+            var circle_marker_6e346ddd628da36330dc857f001304ee = L.circleMarker(
+                [41.981392, 2.827009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_1dfe3f45d4a725ca0ef7bebbf0901f24 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_1e3d48d8ed4a853d34dad89ae2ac97bd = $(`<div id="html_1e3d48d8ed4a853d34dad89ae2ac97bd" style="width: 100.0%; height: 100.0%;">address: Canigó<br>price: 2200<br>area: 100<br>rooms: 1.0<br>neighbourhood: Barri Vell<br>floors: nan<br>elevator: nan<br>lat: 41.981392<br>lon: 2.827009<br>census_tract: 1707901002</div>`)[0];
+                popup_1dfe3f45d4a725ca0ef7bebbf0901f24.setContent(html_1e3d48d8ed4a853d34dad89ae2ac97bd);
+
+
+
+        circle_marker_6e346ddd628da36330dc857f001304ee.bindPopup(popup_1dfe3f45d4a725ca0ef7bebbf0901f24)
+        ;
+
+
+
+
+            var circle_marker_e99f3686e33e07f34fcc3cf685a3abdb = L.circleMarker(
+                [41.985352, 2.819772],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_50b86de2a502b605c6d98747e11a6ac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3f0584cfc4c865fb98ce3c0c430f2397 = $(`<div id="html_3f0584cfc4c865fb98ce3c0c430f2397" style="width: 100.0%; height: 100.0%;">address: Calle Figuerola<br>price: 1550<br>area: 87<br>rooms: 3.0<br>neighbourhood: Devesa<br>floors: 3.0<br>elevator: True<br>lat: 41.985352<br>lon: 2.819772<br>census_tract: 1707903003</div>`)[0];
+                popup_50b86de2a502b605c6d98747e11a6ac4.setContent(html_3f0584cfc4c865fb98ce3c0c430f2397);
+
+
+
+        circle_marker_e99f3686e33e07f34fcc3cf685a3abdb.bindPopup(popup_50b86de2a502b605c6d98747e11a6ac4)
+        ;
+
+
+
+
+            var circle_marker_7cd8f5bc4d34b4b21e6ca6277ee535cc = L.circleMarker(
+                [41.983803, 2.823177],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_a55e732f09c1695db913791d4d7c66e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3e8f5a353bae770d22e1d2928fd7459b = $(`<div id="html_3e8f5a353bae770d22e1d2928fd7459b" style="width: 100.0%; height: 100.0%;">address: Calle de Santa Clara<br>price: 1600<br>area: 107<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 4.0<br>elevator: False<br>lat: 41.983803<br>lon: 2.823177<br>census_tract: 1707903001</div>`)[0];
+                popup_a55e732f09c1695db913791d4d7c66e3.setContent(html_3e8f5a353bae770d22e1d2928fd7459b);
+
+
+
+        circle_marker_7cd8f5bc4d34b4b21e6ca6277ee535cc.bindPopup(popup_a55e732f09c1695db913791d4d7c66e3)
+        ;
+
+
+
+
+            var circle_marker_72a052b9a7e7da84a81ed6ef30bc3be7 = L.circleMarker(
+                [41.98231, 2.825123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_a78a23cba0678ae611d2421e1221b028 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_c6fb10a43b0f7ab9febdd49580a1d7d4 = $(`<div id="html_c6fb10a43b0f7ab9febdd49580a1d7d4" style="width: 100.0%; height: 100.0%;">address: Calle Auriga<br>price: 1500<br>area: 66<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: False<br>lat: 41.98231<br>lon: 2.825123<br>census_tract: 1707901001</div>`)[0];
+                popup_a78a23cba0678ae611d2421e1221b028.setContent(html_c6fb10a43b0f7ab9febdd49580a1d7d4);
+
+
+
+        circle_marker_72a052b9a7e7da84a81ed6ef30bc3be7.bindPopup(popup_a78a23cba0678ae611d2421e1221b028)
+        ;
+
+
+
+
+            var circle_marker_4cdb84ead1268ba04c8c15de5c4ec8e0 = L.circleMarker(
+                [41.994252, 2.808535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b76fec7b38f0b105f6517f9e8bae47d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_465d55bc226c82113c65c133eb6061cd = $(`<div id="html_465d55bc226c82113c65c133eb6061cd" style="width: 100.0%; height: 100.0%;">address: Calle Andalusia<br>price: 1500<br>area: 50<br>rooms: 1.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: nan<br>elevator: nan<br>lat: 41.994252<br>lon: 2.808535<br>census_tract: 1707906002</div>`)[0];
+                popup_b76fec7b38f0b105f6517f9e8bae47d1.setContent(html_465d55bc226c82113c65c133eb6061cd);
+
+
+
+        circle_marker_4cdb84ead1268ba04c8c15de5c4ec8e0.bindPopup(popup_b76fec7b38f0b105f6517f9e8bae47d1)
+        ;
+
+
+
+
+            var circle_marker_65684a106c04294a9f4f84aa84e6d57b = L.circleMarker(
+                [41.994252, 2.808535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_81a30a289abc33704bab44a171d4375d = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_230e94683e94cee69af0569d4ee848fc = $(`<div id="html_230e94683e94cee69af0569d4ee848fc" style="width: 100.0%; height: 100.0%;">address: Calle Andalusia<br>price: 1500<br>area: 70<br>rooms: 2.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: nan<br>elevator: nan<br>lat: 41.994252<br>lon: 2.808535<br>census_tract: 1707906002</div>`)[0];
+                popup_81a30a289abc33704bab44a171d4375d.setContent(html_230e94683e94cee69af0569d4ee848fc);
+
+
+
+        circle_marker_65684a106c04294a9f4f84aa84e6d57b.bindPopup(popup_81a30a289abc33704bab44a171d4375d)
+        ;
+
+
+
+
+            var circle_marker_8868e785135dceab350c799fb8e37a0a = L.circleMarker(
+                [41.994252, 2.808535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_75b88f79bf23328e603f69be69469306 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_d1a1a59a1988b4c80f28f5ca7c92804d = $(`<div id="html_d1a1a59a1988b4c80f28f5ca7c92804d" style="width: 100.0%; height: 100.0%;">address: Calle Andalusia<br>price: 1500<br>area: 70<br>rooms: 2.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: nan<br>elevator: nan<br>lat: 41.994252<br>lon: 2.808535<br>census_tract: 1707906002</div>`)[0];
+                popup_75b88f79bf23328e603f69be69469306.setContent(html_d1a1a59a1988b4c80f28f5ca7c92804d);
+
+
+
+        circle_marker_8868e785135dceab350c799fb8e37a0a.bindPopup(popup_75b88f79bf23328e603f69be69469306)
+        ;
+
+
+
+
+            var circle_marker_5283b90a8eceee292e292e150c596907 = L.circleMarker(
+                [41.984028, 2.825042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_65c84c81c9c791e075a09eabfa6d0938 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_623730ad1e5d14a12dd844e934c1d52b = $(`<div id="html_623730ad1e5d14a12dd844e934c1d52b" style="width: 100.0%; height: 100.0%;">address: Calle de les Ferreries Velles<br>price: 1250<br>area: 89<br>rooms: 3.0<br>neighbourhood: Barri Vell<br>floors: nan<br>elevator: nan<br>lat: 41.984028<br>lon: 2.825042<br>census_tract: 1707901001</div>`)[0];
+                popup_65c84c81c9c791e075a09eabfa6d0938.setContent(html_623730ad1e5d14a12dd844e934c1d52b);
+
+
+
+        circle_marker_5283b90a8eceee292e292e150c596907.bindPopup(popup_65c84c81c9c791e075a09eabfa6d0938)
+        ;
+
+
+
+
+            var circle_marker_f054ccccd92691fb2d48cb0a8a14db34 = L.circleMarker(
+                [41.969446, 2.823917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_bfaf3875712392d48d790a562a072dac = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_6058516c08d9459e0cb22ed89d8d1764 = $(`<div id="html_6058516c08d9459e0cb22ed89d8d1764" style="width: 100.0%; height: 100.0%;">address: Avenida de Lluís Pericot<br>price: 1200<br>area: 127<br>rooms: 4.0<br>neighbourhood: Montilivi-Pericot<br>floors: 2.0<br>elevator: True<br>lat: 41.969446<br>lon: 2.823917<br>census_tract: 1707902018</div>`)[0];
+                popup_bfaf3875712392d48d790a562a072dac.setContent(html_6058516c08d9459e0cb22ed89d8d1764);
+
+
+
+        circle_marker_f054ccccd92691fb2d48cb0a8a14db34.bindPopup(popup_bfaf3875712392d48d790a562a072dac)
+        ;
+
+
+
+
+            var circle_marker_15cfdaeebfde57646e98ef93dff44a80 = L.circleMarker(
+                [41.987587, 2.824147],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_0ada91d0c4eca716ae79d627c6f5b27a = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_aabe0f1dd5ebc24fde60dd6fef0a430e = $(`<div id="html_aabe0f1dd5ebc24fde60dd6fef0a430e" style="width: 100.0%; height: 100.0%;">address: Calle dels Calderers<br>price: 1100<br>area: 50<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 5.0<br>elevator: False<br>lat: 41.987587<br>lon: 2.824147<br>census_tract: 1707904001</div>`)[0];
+                popup_0ada91d0c4eca716ae79d627c6f5b27a.setContent(html_aabe0f1dd5ebc24fde60dd6fef0a430e);
+
+
+
+        circle_marker_15cfdaeebfde57646e98ef93dff44a80.bindPopup(popup_0ada91d0c4eca716ae79d627c6f5b27a)
+        ;
+
+
+
+
+            var circle_marker_a4a85d5aaee7ab4833cc413209846d0d = L.circleMarker(
+                [41.979301, 2.819944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b030eb35e7063d2b2d98c1e92281e177 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3bb00178aae284e8698091a96d17cb94 = $(`<div id="html_3bb00178aae284e8698091a96d17cb94" style="width: 100.0%; height: 100.0%;">address: Calle Can Cases<br>price: 5000<br>area: 199<br>rooms: 5.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: nan<br>elevator: nan<br>lat: 41.979301<br>lon: 2.819944<br>census_tract: 1707902003</div>`)[0];
+                popup_b030eb35e7063d2b2d98c1e92281e177.setContent(html_3bb00178aae284e8698091a96d17cb94);
+
+
+
+        circle_marker_a4a85d5aaee7ab4833cc413209846d0d.bindPopup(popup_b030eb35e7063d2b2d98c1e92281e177)
+        ;
+
+
+
+
+            var circle_marker_fac687699b0455ba4bb268e4d2665165 = L.circleMarker(
+                [41.995144, 2.831818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_5465457710c9685a0e0954bf0b932d8a = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_4933d7cf0113388ff6f5685aac27923b = $(`<div id="html_4933d7cf0113388ff6f5685aac27923b" style="width: 100.0%; height: 100.0%;">address: Montjuïc<br>price: 2800<br>area: 304<br>rooms: 4.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.995144<br>lon: 2.831818<br>census_tract: 1707905001</div>`)[0];
+                popup_5465457710c9685a0e0954bf0b932d8a.setContent(html_4933d7cf0113388ff6f5685aac27923b);
+
+
+
+        circle_marker_fac687699b0455ba4bb268e4d2665165.bindPopup(popup_5465457710c9685a0e0954bf0b932d8a)
+        ;
+
+
+
+
+            var circle_marker_d6f4065faba2a7a4616b7aac5a65efba = L.circleMarker(
+                [41.958578, 2.820361],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_cf91ea8320748bd4299dd22a6a49cce9 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_dbf4077163ee8cbba0cf6bbbf70c0547 = $(`<div id="html_dbf4077163ee8cbba0cf6bbbf70c0547" style="width: 100.0%; height: 100.0%;">address: Calle Jocs Olímpics de Barcelona, 31<br>price: 1350<br>area: 95<br>rooms: 3.0<br>neighbourhood: Palau<br>floors: 1.0<br>elevator: True<br>lat: 41.958578<br>lon: 2.820361<br>census_tract: 1707902020</div>`)[0];
+                popup_cf91ea8320748bd4299dd22a6a49cce9.setContent(html_dbf4077163ee8cbba0cf6bbbf70c0547);
+
+
+
+        circle_marker_d6f4065faba2a7a4616b7aac5a65efba.bindPopup(popup_cf91ea8320748bd4299dd22a6a49cce9)
+        ;
+
+
+
+
+            var circle_marker_cc07f40991c61fb2ee7f7e36668da230 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_185aedaab3fd28d12d9100ec9e859b20 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0f802f6e8c286685b7180b0ce4ce7b28 = $(`<div id="html_0f802f6e8c286685b7180b0ce4ce7b28" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1800<br>area: 96<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_185aedaab3fd28d12d9100ec9e859b20.setContent(html_0f802f6e8c286685b7180b0ce4ce7b28);
+
+
+
+        circle_marker_cc07f40991c61fb2ee7f7e36668da230.bindPopup(popup_185aedaab3fd28d12d9100ec9e859b20)
+        ;
+
+
+
+
+            var circle_marker_90bce785ed5c95ea5c7350f485dd3503 = L.circleMarker(
+                [41.982422, 2.821367],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_7d58e5c8e46c0bc2ed0b5503a6a6827c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0d588cab8c8e8a4d3a3989a44ef774aa = $(`<div id="html_0d588cab8c8e8a4d3a3989a44ef774aa" style="width: 100.0%; height: 100.0%;">address: Avenida de Sant Francesc<br>price: 1650<br>area: 80<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: True<br>lat: 41.982422<br>lon: 2.821367<br>census_tract: 1707902001</div>`)[0];
+                popup_7d58e5c8e46c0bc2ed0b5503a6a6827c.setContent(html_0d588cab8c8e8a4d3a3989a44ef774aa);
+
+
+
+        circle_marker_90bce785ed5c95ea5c7350f485dd3503.bindPopup(popup_7d58e5c8e46c0bc2ed0b5503a6a6827c)
+        ;
+
+
+
+
+            var circle_marker_5430d786fa5625578d1a3bb7dd3ff7bb = L.circleMarker(
+                [41.965464, 2.812528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_637afab4754c17e70524b08fa9e65e19 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_dbd51edad38e8fc89b42366e80f00b9e = $(`<div id="html_dbd51edad38e8fc89b42366e80f00b9e" style="width: 100.0%; height: 100.0%;">address: Calle Barcelona<br>price: 3000<br>area: 200<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: False<br>lat: 41.965464<br>lon: 2.812528<br>census_tract: 1707902022</div>`)[0];
+                popup_637afab4754c17e70524b08fa9e65e19.setContent(html_dbd51edad38e8fc89b42366e80f00b9e);
+
+
+
+        circle_marker_5430d786fa5625578d1a3bb7dd3ff7bb.bindPopup(popup_637afab4754c17e70524b08fa9e65e19)
+        ;
+
+
+
+
+            var circle_marker_ee9baf144d3591a8b4faacd72270e34e = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_9ea2e6b1580ea84f18a211fca9253a12 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_e016bfb861efcf752b43c0fc0846df1e = $(`<div id="html_e016bfb861efcf752b43c0fc0846df1e" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1500<br>area: 156<br>rooms: 2.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_9ea2e6b1580ea84f18a211fca9253a12.setContent(html_e016bfb861efcf752b43c0fc0846df1e);
+
+
+
+        circle_marker_ee9baf144d3591a8b4faacd72270e34e.bindPopup(popup_9ea2e6b1580ea84f18a211fca9253a12)
+        ;
+
+
+
+
+            var circle_marker_1bac625a5b36ea397ef02b1076705fca = L.circleMarker(
+                [41.97382, 2.809952],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_875c2ed737a5e544b57644a9ea78cd68 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_afbcde9380e3566d440f69784678a0ba = $(`<div id="html_afbcde9380e3566d440f69784678a0ba" style="width: 100.0%; height: 100.0%;">address: Sant Narcís<br>price: 1600<br>area: 60<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 5.0<br>elevator: True<br>lat: 41.97382<br>lon: 2.809952<br>census_tract: 1707903006</div>`)[0];
+                popup_875c2ed737a5e544b57644a9ea78cd68.setContent(html_afbcde9380e3566d440f69784678a0ba);
+
+
+
+        circle_marker_1bac625a5b36ea397ef02b1076705fca.bindPopup(popup_875c2ed737a5e544b57644a9ea78cd68)
+        ;
+
+
+
+
+            var circle_marker_b9754f4209e5a25bca91dd63db68f7c0 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_224bf75df83e1dfa3aaa0fc4f06c6255 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_87b2d7462bfe3217339c5fab59ea540e = $(`<div id="html_87b2d7462bfe3217339c5fab59ea540e" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 2100<br>area: 107<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_224bf75df83e1dfa3aaa0fc4f06c6255.setContent(html_87b2d7462bfe3217339c5fab59ea540e);
+
+
+
+        circle_marker_b9754f4209e5a25bca91dd63db68f7c0.bindPopup(popup_224bf75df83e1dfa3aaa0fc4f06c6255)
+        ;
+
+
+
+
+            var circle_marker_201871af6dadf08a7afaa0d041c365b1 = L.circleMarker(
+                [41.975497, 2.824881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_fe51b744a4746221fa9e60817a6bd889 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_122f5fc304a4374238676198506cf753 = $(`<div id="html_122f5fc304a4374238676198506cf753" style="width: 100.0%; height: 100.0%;">address: CL Carme<br>price: 900<br>area: 69<br>rooms: 2.0<br>neighbourhood: Carme-Vistalegre<br>floors: 6.0<br>elevator: True<br>lat: 41.975497<br>lon: 2.824881<br>census_tract: 1707901003</div>`)[0];
+                popup_fe51b744a4746221fa9e60817a6bd889.setContent(html_122f5fc304a4374238676198506cf753);
+
+
+
+        circle_marker_201871af6dadf08a7afaa0d041c365b1.bindPopup(popup_fe51b744a4746221fa9e60817a6bd889)
+        ;
+
+
+
+
+            var circle_marker_c3ea79b3bebe0e19609c9996d4e69421 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_4136e23063db1db58350e80b223897a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3c279dc5e743c698138dd5f4e40f0856 = $(`<div id="html_3c279dc5e743c698138dd5f4e40f0856" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 2100<br>area: 107<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_4136e23063db1db58350e80b223897a9.setContent(html_3c279dc5e743c698138dd5f4e40f0856);
+
+
+
+        circle_marker_c3ea79b3bebe0e19609c9996d4e69421.bindPopup(popup_4136e23063db1db58350e80b223897a9)
+        ;
+
+
+
+
+            var circle_marker_0e89c8a92db382fa326efb6bb74b894b = L.circleMarker(
+                [41.965464, 2.812528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_070f92dbb858b5beeea68f471bce0fb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_6d934fe54f4e672429e86214a0e5be32 = $(`<div id="html_6d934fe54f4e672429e86214a0e5be32" style="width: 100.0%; height: 100.0%;">address: Calle Barcelona<br>price: 1800<br>area: 150<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.965464<br>lon: 2.812528<br>census_tract: 1707902022</div>`)[0];
+                popup_070f92dbb858b5beeea68f471bce0fb1.setContent(html_6d934fe54f4e672429e86214a0e5be32);
+
+
+
+        circle_marker_0e89c8a92db382fa326efb6bb74b894b.bindPopup(popup_070f92dbb858b5beeea68f471bce0fb1)
+        ;
+
+
+
+
+            var circle_marker_5111b476fc85523591eea9862c0537ee = L.circleMarker(
+                [41.968709, 2.81615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_d1af04e41feede2d02b5f783734ce8f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_c110934237e05b55f56327060cc36260 = $(`<div id="html_c110934237e05b55f56327060cc36260" style="width: 100.0%; height: 100.0%;">address: Calle de Santiago<br>price: 1700<br>area: 71<br>rooms: 2.0<br>neighbourhood: Migdia Casernes<br>floors: nan<br>elevator: nan<br>lat: 41.968709<br>lon: 2.81615<br>census_tract: 1707902011</div>`)[0];
+                popup_d1af04e41feede2d02b5f783734ce8f4.setContent(html_c110934237e05b55f56327060cc36260);
+
+
+
+        circle_marker_5111b476fc85523591eea9862c0537ee.bindPopup(popup_d1af04e41feede2d02b5f783734ce8f4)
+        ;
+
+
+
+
+            var circle_marker_449fa09feffaf0422c8ebf8f67a3acb8 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_735d002fa47dab56c8925f2a81ba3b12 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_1dc2f1a1c18cccd49c67d07d225a8814 = $(`<div id="html_1dc2f1a1c18cccd49c67d07d225a8814" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1500<br>area: 52<br>rooms: 1.0<br>neighbourhood: nan<br>floors: 4.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_735d002fa47dab56c8925f2a81ba3b12.setContent(html_1dc2f1a1c18cccd49c67d07d225a8814);
+
+
+
+        circle_marker_449fa09feffaf0422c8ebf8f67a3acb8.bindPopup(popup_735d002fa47dab56c8925f2a81ba3b12)
+        ;
+
+
+
+
+            var circle_marker_73caa793164a4a84f684f805defe0833 = L.circleMarker(
+                [41.978459, 2.820586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_552d9585c7da2bad9f849c207cb5be0b = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_e12cabcf35cc4a45f558e7d3de4f50d4 = $(`<div id="html_e12cabcf35cc4a45f558e7d3de4f50d4" style="width: 100.0%; height: 100.0%;">address: Calle Bisbe Lorenzana<br>price: 3000<br>area: 87<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.978459<br>lon: 2.820586<br>census_tract: 1707902004</div>`)[0];
+                popup_552d9585c7da2bad9f849c207cb5be0b.setContent(html_e12cabcf35cc4a45f558e7d3de4f50d4);
+
+
+
+        circle_marker_73caa793164a4a84f684f805defe0833.bindPopup(popup_552d9585c7da2bad9f849c207cb5be0b)
+        ;
+
+
+
+
+            var circle_marker_706a66406320ea51f2f93dfca4325432 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_5e4d135eb6478d4178d4dc8470e933b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_544086fcae568e33630e7303ea5625f4 = $(`<div id="html_544086fcae568e33630e7303ea5625f4" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1800<br>area: 71<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: False<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_5e4d135eb6478d4178d4dc8470e933b2.setContent(html_544086fcae568e33630e7303ea5625f4);
+
+
+
+        circle_marker_706a66406320ea51f2f93dfca4325432.bindPopup(popup_5e4d135eb6478d4178d4dc8470e933b2)
+        ;
+
+
+
+
+            var circle_marker_2b8e8806acb9428ce43181d4f809bb8f = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_c7dc5b0d35aafd53384ba5fbee692b9e = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_dadaac4a11313d9cb5532351f164dda6 = $(`<div id="html_dadaac4a11313d9cb5532351f164dda6" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1800<br>area: 101<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_c7dc5b0d35aafd53384ba5fbee692b9e.setContent(html_dadaac4a11313d9cb5532351f164dda6);
+
+
+
+        circle_marker_2b8e8806acb9428ce43181d4f809bb8f.bindPopup(popup_c7dc5b0d35aafd53384ba5fbee692b9e)
+        ;
+
+
+
+
+            var circle_marker_99d3d978850588ff0d9f43a15ee960d7 = L.circleMarker(
+                [41.983855, 2.825231],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_316f7dfb2f593a4e6eef395753b6bf36 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_46f9daed93600e333b137d7e0f8e4052 = $(`<div id="html_46f9daed93600e333b137d7e0f8e4052" style="width: 100.0%; height: 100.0%;">address: Calle dels Ciutadans<br>price: 1600<br>area: 123<br>rooms: 4.0<br>neighbourhood: Barri Vell<br>floors: 2.0<br>elevator: True<br>lat: 41.983855<br>lon: 2.825231<br>census_tract: 1707901001</div>`)[0];
+                popup_316f7dfb2f593a4e6eef395753b6bf36.setContent(html_46f9daed93600e333b137d7e0f8e4052);
+
+
+
+        circle_marker_99d3d978850588ff0d9f43a15ee960d7.bindPopup(popup_316f7dfb2f593a4e6eef395753b6bf36)
+        ;
+
+
+
+
+            var circle_marker_2b810addfb4b45f7c88982fb518e0d8f = L.circleMarker(
+                [41.980574, 2.817983],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_bdac1fb0442676f0f5479a2db3dbc50c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_9b10ef285e28adf73414da4fd8aa7ce3 = $(`<div id="html_9b10ef285e28adf73414da4fd8aa7ce3" style="width: 100.0%; height: 100.0%;">address: Plaza Poeta Marquina<br>price: 1350<br>area: 110<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 5.0<br>elevator: True<br>lat: 41.980574<br>lon: 2.817983<br>census_tract: 1707902002</div>`)[0];
+                popup_bdac1fb0442676f0f5479a2db3dbc50c.setContent(html_9b10ef285e28adf73414da4fd8aa7ce3);
+
+
+
+        circle_marker_2b810addfb4b45f7c88982fb518e0d8f.bindPopup(popup_bdac1fb0442676f0f5479a2db3dbc50c)
+        ;
+
+
+
+
+            var circle_marker_75813eb6a83319ece003412da5cbf431 = L.circleMarker(
+                [41.994252, 2.808535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_9ccd0c80c6c80097c7de77109814ebb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ae9c1444c40d5fa25d7423448de4602f = $(`<div id="html_ae9c1444c40d5fa25d7423448de4602f" style="width: 100.0%; height: 100.0%;">address: Calle Andalusia<br>price: 1500<br>area: 70<br>rooms: 2.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: 1.0<br>elevator: False<br>lat: 41.994252<br>lon: 2.808535<br>census_tract: 1707906002</div>`)[0];
+                popup_9ccd0c80c6c80097c7de77109814ebb7.setContent(html_ae9c1444c40d5fa25d7423448de4602f);
+
+
+
+        circle_marker_75813eb6a83319ece003412da5cbf431.bindPopup(popup_9ccd0c80c6c80097c7de77109814ebb7)
+        ;
+
+
+
+
+            var circle_marker_10137e7a618e8e928b4441cf2d57137a = L.circleMarker(
+                [41.994252, 2.808535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_a64cc1ef9a1d2442f2865d9f2bcc6563 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_895381f4efdf77a48744bbd6dc1a151b = $(`<div id="html_895381f4efdf77a48744bbd6dc1a151b" style="width: 100.0%; height: 100.0%;">address: Calle Andalusia<br>price: 1500<br>area: 70<br>rooms: 2.0<br>neighbourhood: Talaia - Germans Sabat<br>floors: 1.0<br>elevator: False<br>lat: 41.994252<br>lon: 2.808535<br>census_tract: 1707906002</div>`)[0];
+                popup_a64cc1ef9a1d2442f2865d9f2bcc6563.setContent(html_895381f4efdf77a48744bbd6dc1a151b);
+
+
+
+        circle_marker_10137e7a618e8e928b4441cf2d57137a.bindPopup(popup_a64cc1ef9a1d2442f2865d9f2bcc6563)
+        ;
+
+
+
+
+            var circle_marker_b7ad09d157063f73f6c6fa6d152918fb = L.circleMarker(
+                [41.969446, 2.823917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_f941c052f8b0d4e9bf36c630fc32b562 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0682a5b7930fbce147853ac3212b9cd0 = $(`<div id="html_0682a5b7930fbce147853ac3212b9cd0" style="width: 100.0%; height: 100.0%;">address: Avenida de Lluís Pericot<br>price: 1154<br>area: 118<br>rooms: 4.0<br>neighbourhood: Montilivi-Pericot<br>floors: nan<br>elevator: nan<br>lat: 41.969446<br>lon: 2.823917<br>census_tract: 1707902018</div>`)[0];
+                popup_f941c052f8b0d4e9bf36c630fc32b562.setContent(html_0682a5b7930fbce147853ac3212b9cd0);
+
+
+
+        circle_marker_b7ad09d157063f73f6c6fa6d152918fb.bindPopup(popup_f941c052f8b0d4e9bf36c630fc32b562)
+        ;
+
+
+
+
+            var circle_marker_6a50f666f75b295311d4ef597bce8a05 = L.circleMarker(
+                [41.99131, 2.825809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_7737e3875cdb1d7caae3a3e2184ba706 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ff96679496f5842fea9e8c78f5b2f337 = $(`<div id="html_ff96679496f5842fea9e8c78f5b2f337" style="width: 100.0%; height: 100.0%;">address: Calle de Pedret<br>price: 1500<br>area: 45<br>rooms: 2.0<br>neighbourhood: Montjuïc<br>floors: nan<br>elevator: nan<br>lat: 41.99131<br>lon: 2.825809<br>census_tract: 1707905002</div>`)[0];
+                popup_7737e3875cdb1d7caae3a3e2184ba706.setContent(html_ff96679496f5842fea9e8c78f5b2f337);
+
+
+
+        circle_marker_6a50f666f75b295311d4ef597bce8a05.bindPopup(popup_7737e3875cdb1d7caae3a3e2184ba706)
+        ;
+
+
+
+
+            var circle_marker_68c879e42a04c603b388e1817fe05efd = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_885119186d4c19c1b2ad5dc1abc0a7b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_db670f42c210f051b49c18758724bef6 = $(`<div id="html_db670f42c210f051b49c18758724bef6" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 2200<br>area: 94<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_885119186d4c19c1b2ad5dc1abc0a7b6.setContent(html_db670f42c210f051b49c18758724bef6);
+
+
+
+        circle_marker_68c879e42a04c603b388e1817fe05efd.bindPopup(popup_885119186d4c19c1b2ad5dc1abc0a7b6)
+        ;
+
+
+
+
+            var circle_marker_87bc70c391a967018f171f26218e12de = L.circleMarker(
+                [41.976997, 2.811933],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_794f64a66563eadb432bf4b078612360 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_2d3f6e48f83e61ad29cd9ea31da395b2 = $(`<div id="html_2d3f6e48f83e61ad29cd9ea31da395b2" style="width: 100.0%; height: 100.0%;">address: Calle Mare de Déu del Remei<br>price: 1100<br>area: 87<br>rooms: 3.0<br>neighbourhood: Sant Narcís<br>floors: 2.0<br>elevator: True<br>lat: 41.976997<br>lon: 2.811933<br>census_tract: 1707903016</div>`)[0];
+                popup_794f64a66563eadb432bf4b078612360.setContent(html_2d3f6e48f83e61ad29cd9ea31da395b2);
+
+
+
+        circle_marker_87bc70c391a967018f171f26218e12de.bindPopup(popup_794f64a66563eadb432bf4b078612360)
+        ;
+
+
+
+
+            var circle_marker_7eb9e71c6c73fe6d811dc51b3f0ed74b = L.circleMarker(
+                [41.975657, 2.81439],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_2e752a49499cfff3fba9d6c8116a3f72 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_75fc9f5702defb453cb2d792ec0444ee = $(`<div id="html_75fc9f5702defb453cb2d792ec0444ee" style="width: 100.0%; height: 100.0%;">address: Plaza d'Europa<br>price: 1650<br>area: 105<br>rooms: 4.0<br>neighbourhood: Sant Narcís<br>floors: 2.0<br>elevator: True<br>lat: 41.975657<br>lon: 2.81439<br>census_tract: 1707903007</div>`)[0];
+                popup_2e752a49499cfff3fba9d6c8116a3f72.setContent(html_75fc9f5702defb453cb2d792ec0444ee);
+
+
+
+        circle_marker_7eb9e71c6c73fe6d811dc51b3f0ed74b.bindPopup(popup_2e752a49499cfff3fba9d6c8116a3f72)
+        ;
+
+
+
+
+            var circle_marker_ab267e3e59b66bf6a269f6e9939c72b6 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_5e74986f921320bf3a75310c2545f22c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_2b5ed692fbe01830783314024d3c0038 = $(`<div id="html_2b5ed692fbe01830783314024d3c0038" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 2500<br>area: 124<br>rooms: 4.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: False<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_5e74986f921320bf3a75310c2545f22c.setContent(html_2b5ed692fbe01830783314024d3c0038);
+
+
+
+        circle_marker_ab267e3e59b66bf6a269f6e9939c72b6.bindPopup(popup_5e74986f921320bf3a75310c2545f22c)
+        ;
+
+
+
+
+            var circle_marker_3d852a25df09a3462a760b63f6670505 = L.circleMarker(
+                [41.983021, 2.824542],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_bcdd562517932344597349658af9d7ab = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_963d19621914419dae64087f7e3d50e9 = $(`<div id="html_963d19621914419dae64087f7e3d50e9" style="width: 100.0%; height: 100.0%;">address: Plaza del Vi<br>price: 1400<br>area: 100<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 4.0<br>elevator: False<br>lat: 41.983021<br>lon: 2.824542<br>census_tract: 1707901001</div>`)[0];
+                popup_bcdd562517932344597349658af9d7ab.setContent(html_963d19621914419dae64087f7e3d50e9);
+
+
+
+        circle_marker_3d852a25df09a3462a760b63f6670505.bindPopup(popup_bcdd562517932344597349658af9d7ab)
+        ;
+
+
+
+
+            var circle_marker_3ca038905b44ba99b93613a397d0466e = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_fcef98fe564e5fa74757aa589f972450 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0957ae6ceb32747b0b165b4b36e756d9 = $(`<div id="html_0957ae6ceb32747b0b165b4b36e756d9" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 3000<br>area: 97<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 5.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_fcef98fe564e5fa74757aa589f972450.setContent(html_0957ae6ceb32747b0b165b4b36e756d9);
+
+
+
+        circle_marker_3ca038905b44ba99b93613a397d0466e.bindPopup(popup_fcef98fe564e5fa74757aa589f972450)
+        ;
+
+
+
+
+            var circle_marker_71a9ec208df774f7ceb49cec592d16c4 = L.circleMarker(
+                [41.978459, 2.820586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_56d39369c6302934fe012a0dd0424122 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_5260216427ffcbd0911f6e23b478415a = $(`<div id="html_5260216427ffcbd0911f6e23b478415a" style="width: 100.0%; height: 100.0%;">address: Calle Bisbe Lorenzana<br>price: 1550<br>area: 110<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: False<br>lat: 41.978459<br>lon: 2.820586<br>census_tract: 1707902004</div>`)[0];
+                popup_56d39369c6302934fe012a0dd0424122.setContent(html_5260216427ffcbd0911f6e23b478415a);
+
+
+
+        circle_marker_71a9ec208df774f7ceb49cec592d16c4.bindPopup(popup_56d39369c6302934fe012a0dd0424122)
+        ;
+
+
+
+
+            var circle_marker_1f2d10b2a7f65615d4e8230a6370567e = L.circleMarker(
+                [41.995144, 2.831818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b6b2ba734375b444719fb70807069152 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_a43d87c1b5051cb373c996898ae42c26 = $(`<div id="html_a43d87c1b5051cb373c996898ae42c26" style="width: 100.0%; height: 100.0%;">address: Montjuïc<br>price: 1500<br>area: 127<br>rooms: 4.0<br>neighbourhood: nan<br>floors: 3.0<br>elevator: True<br>lat: 41.995144<br>lon: 2.831818<br>census_tract: 1707905001</div>`)[0];
+                popup_b6b2ba734375b444719fb70807069152.setContent(html_a43d87c1b5051cb373c996898ae42c26);
+
+
+
+        circle_marker_1f2d10b2a7f65615d4e8230a6370567e.bindPopup(popup_b6b2ba734375b444719fb70807069152)
+        ;
+
+
+
+
+            var circle_marker_bd47a4c20151b09044f64110be95f092 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_92db6543344ec4eb877ac3be4dfa5ee8 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_cef910e8cf9cbd5946eb655ef16b2f9a = $(`<div id="html_cef910e8cf9cbd5946eb655ef16b2f9a" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 640<br>area: 60<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 4.0<br>elevator: False<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_92db6543344ec4eb877ac3be4dfa5ee8.setContent(html_cef910e8cf9cbd5946eb655ef16b2f9a);
+
+
+
+        circle_marker_bd47a4c20151b09044f64110be95f092.bindPopup(popup_92db6543344ec4eb877ac3be4dfa5ee8)
+        ;
+
+
+
+
+            var circle_marker_5e010c59ae8636a682f0b6d97bd349bc = L.circleMarker(
+                [41.970227, 2.8226],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_de558f159261ec1c6067ef6f3defd356 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_5df10f10b17247ee58be506e838fb80f = $(`<div id="html_5df10f10b17247ee58be506e838fb80f" style="width: 100.0%; height: 100.0%;">address: Calle Jaume Marquès i Casanovas<br>price: 990<br>area: 90<br>rooms: 3.0<br>neighbourhood: Migdia Casernes<br>floors: 1.0<br>elevator: False<br>lat: 41.970227<br>lon: 2.8226<br>census_tract: 1707902010</div>`)[0];
+                popup_de558f159261ec1c6067ef6f3defd356.setContent(html_5df10f10b17247ee58be506e838fb80f);
+
+
+
+        circle_marker_5e010c59ae8636a682f0b6d97bd349bc.bindPopup(popup_de558f159261ec1c6067ef6f3defd356)
+        ;
+
+
+
+
+            var circle_marker_d64ebfe05a1f3729a19d70465cff2586 = L.circleMarker(
+                [41.978387, 2.820337],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_5c8fcf936fe1b09462e4e9b581b8a1db = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_4cf5b3c3f4fd585461ec09d00d4e4f0a = $(`<div id="html_4cf5b3c3f4fd585461ec09d00d4e4f0a" style="width: 100.0%; height: 100.0%;">address: Calle de Joan Maragall<br>price: 1124<br>area: 107<br>rooms: 4.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.978387<br>lon: 2.820337<br>census_tract: 1707902004</div>`)[0];
+                popup_5c8fcf936fe1b09462e4e9b581b8a1db.setContent(html_4cf5b3c3f4fd585461ec09d00d4e4f0a);
+
+
+
+        circle_marker_d64ebfe05a1f3729a19d70465cff2586.bindPopup(popup_5c8fcf936fe1b09462e4e9b581b8a1db)
+        ;
+
+
+
+
+            var circle_marker_e191305a463ca0f0a270f76f4bef1f7b = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_e90fcf90eb1131b240158a0d46a32880 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_8d307e4ef8c362656ebc7920215a3724 = $(`<div id="html_8d307e4ef8c362656ebc7920215a3724" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 950<br>area: 110<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_e90fcf90eb1131b240158a0d46a32880.setContent(html_8d307e4ef8c362656ebc7920215a3724);
+
+
+
+        circle_marker_e191305a463ca0f0a270f76f4bef1f7b.bindPopup(popup_e90fcf90eb1131b240158a0d46a32880)
+        ;
+
+
+
+
+            var circle_marker_7c91588c5755f172411fb4ef41c6040c = L.circleMarker(
+                [41.978551, 2.809786],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_4732b519f612ea8dcf69a806c5003eaf = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_beae8927e8b2168cb5408b223918afcf = $(`<div id="html_beae8927e8b2168cb5408b223918afcf" style="width: 100.0%; height: 100.0%;">address: Calle de Santa Eugènia<br>price: 1200<br>area: 78<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 2.0<br>elevator: False<br>lat: 41.978551<br>lon: 2.809786<br>census_tract: 1707903008</div>`)[0];
+                popup_4732b519f612ea8dcf69a806c5003eaf.setContent(html_beae8927e8b2168cb5408b223918afcf);
+
+
+
+        circle_marker_7c91588c5755f172411fb4ef41c6040c.bindPopup(popup_4732b519f612ea8dcf69a806c5003eaf)
+        ;
+
+
+
+
+            var circle_marker_9fdddb44156f0871c5475d6a4434e30b = L.circleMarker(
+                [41.975657, 2.81439],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_1ba5df9afb081a19582c9fecb776adf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_62d95445631614652281433594c38f84 = $(`<div id="html_62d95445631614652281433594c38f84" style="width: 100.0%; height: 100.0%;">address: Plaza d'Europa<br>price: 1650<br>area: 120<br>rooms: 4.0<br>neighbourhood: Sant Narcís<br>floors: 4.0<br>elevator: True<br>lat: 41.975657<br>lon: 2.81439<br>census_tract: 1707903007</div>`)[0];
+                popup_1ba5df9afb081a19582c9fecb776adf0.setContent(html_62d95445631614652281433594c38f84);
+
+
+
+        circle_marker_9fdddb44156f0871c5475d6a4434e30b.bindPopup(popup_1ba5df9afb081a19582c9fecb776adf0)
+        ;
+
+
+
+
+            var circle_marker_085e437cdccae262f82189c7f9f7fb49 = L.circleMarker(
+                [41.989691, 2.825243],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_e49631fc1cec5a0f9e19a7e3d2590e23 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_bc38593bad17062047ffc69d20c1ce0f = $(`<div id="html_bc38593bad17062047ffc69d20c1ce0f" style="width: 100.0%; height: 100.0%;">address: Plaza Sant Pere, 6<br>price: 1270<br>area: 75<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: False<br>lat: 41.989691<br>lon: 2.825243<br>census_tract: 1707905002</div>`)[0];
+                popup_e49631fc1cec5a0f9e19a7e3d2590e23.setContent(html_bc38593bad17062047ffc69d20c1ce0f);
+
+
+
+        circle_marker_085e437cdccae262f82189c7f9f7fb49.bindPopup(popup_e49631fc1cec5a0f9e19a7e3d2590e23)
+        ;
+
+
+
+
+            var circle_marker_870eb56d2c19ae366d6b0117d2be6388 = L.circleMarker(
+                [41.982941, 2.819809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_e8a5647d9751735196ec89ed34b7e5af = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_4deb9b385f3825b49b64a7604ed13f76 = $(`<div id="html_4deb9b385f3825b49b64a7604ed13f76" style="width: 100.0%; height: 100.0%;">address: Gran Via de Jaume I<br>price: 800<br>area: 75<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.982941<br>lon: 2.819809<br>census_tract: 1707903001</div>`)[0];
+                popup_e8a5647d9751735196ec89ed34b7e5af.setContent(html_4deb9b385f3825b49b64a7604ed13f76);
+
+
+
+        circle_marker_870eb56d2c19ae366d6b0117d2be6388.bindPopup(popup_e8a5647d9751735196ec89ed34b7e5af)
+        ;
+
+
+
+
+            var circle_marker_4532cf68434b637a7ac9c1d31a23dda7 = L.circleMarker(
+                [41.983438, 2.824275],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_266af55a2a575ada638f42b49851b5a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_83bc533d5640f687bda70c416bb7cd57 = $(`<div id="html_83bc533d5640f687bda70c416bb7cd57" style="width: 100.0%; height: 100.0%;">address: Abeuradors<br>price: 800<br>area: 50<br>rooms: nan<br>neighbourhood: Barri Vell<br>floors: 2.0<br>elevator: True<br>lat: 41.983438<br>lon: 2.824275<br>census_tract: 1707901001</div>`)[0];
+                popup_266af55a2a575ada638f42b49851b5a8.setContent(html_83bc533d5640f687bda70c416bb7cd57);
+
+
+
+        circle_marker_4532cf68434b637a7ac9c1d31a23dda7.bindPopup(popup_266af55a2a575ada638f42b49851b5a8)
+        ;
+
+
+
+
+            var circle_marker_346095e37304b7f83592af78bdc8f65b = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_812d83665cc9c60714d157b0fe94f43c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ee97489a4c5cc70e83ea77f04b044869 = $(`<div id="html_ee97489a4c5cc70e83ea77f04b044869" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1800<br>area: 142<br>rooms: 4.0<br>neighbourhood: nan<br>floors: 5.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_812d83665cc9c60714d157b0fe94f43c.setContent(html_ee97489a4c5cc70e83ea77f04b044869);
+
+
+
+        circle_marker_346095e37304b7f83592af78bdc8f65b.bindPopup(popup_812d83665cc9c60714d157b0fe94f43c)
+        ;
+
+
+
+
+            var circle_marker_d1c75b6f2fe5eb74840556d707c6f701 = L.circleMarker(
+                [41.978387, 2.820337],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_2921830ccc0cea50c84c6204a8e96f0b = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_f5b905eda194170708f72491f636c262 = $(`<div id="html_f5b905eda194170708f72491f636c262" style="width: 100.0%; height: 100.0%;">address: Calle de Joan Maragall<br>price: 3300<br>area: 131<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.978387<br>lon: 2.820337<br>census_tract: 1707902004</div>`)[0];
+                popup_2921830ccc0cea50c84c6204a8e96f0b.setContent(html_f5b905eda194170708f72491f636c262);
+
+
+
+        circle_marker_d1c75b6f2fe5eb74840556d707c6f701.bindPopup(popup_2921830ccc0cea50c84c6204a8e96f0b)
+        ;
+
+
+
+
+            var circle_marker_ebb3aa1d2673ea086f0c15606c79261f = L.circleMarker(
+                [41.983937, 2.824952],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_eda4942c2fc44b33f2492ef4d6c29c8f = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_62c2dca157967b11d78a018d185cbab0 = $(`<div id="html_62c2dca157967b11d78a018d185cbab0" style="width: 100.0%; height: 100.0%;">address: Calle Nou, 6<br>price: 1350<br>area: 58<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: True<br>lat: 41.983937<br>lon: 2.824952<br>census_tract: 1707901001</div>`)[0];
+                popup_eda4942c2fc44b33f2492ef4d6c29c8f.setContent(html_62c2dca157967b11d78a018d185cbab0);
+
+
+
+        circle_marker_ebb3aa1d2673ea086f0c15606c79261f.bindPopup(popup_eda4942c2fc44b33f2492ef4d6c29c8f)
+        ;
+
+
+
+
+            var circle_marker_614ce240943ce2f4ed43d0f34a735128 = L.circleMarker(
+                [41.975497, 2.824881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_d7761cffb0bd5e3b97098f210030d65c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_678761214e7a2e1f835c6ef03b67ce4d = $(`<div id="html_678761214e7a2e1f835c6ef03b67ce4d" style="width: 100.0%; height: 100.0%;">address: Carme-Vistalegre<br>price: 2700<br>area: 120<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.975497<br>lon: 2.824881<br>census_tract: 1707901003</div>`)[0];
+                popup_d7761cffb0bd5e3b97098f210030d65c.setContent(html_678761214e7a2e1f835c6ef03b67ce4d);
+
+
+
+        circle_marker_614ce240943ce2f4ed43d0f34a735128.bindPopup(popup_d7761cffb0bd5e3b97098f210030d65c)
+        ;
+
+
+
+
+            var circle_marker_f68a16b537a28e4c4581430fcf74e3b3 = L.circleMarker(
+                [41.975497, 2.824881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_9e3d37d940dc242e78235f1109129505 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_fd0404b36c54eaf21046489335769225 = $(`<div id="html_fd0404b36c54eaf21046489335769225" style="width: 100.0%; height: 100.0%;">address: Carme-Vistalegre<br>price: 2700<br>area: 120<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 5.0<br>elevator: True<br>lat: 41.975497<br>lon: 2.824881<br>census_tract: 1707901003</div>`)[0];
+                popup_9e3d37d940dc242e78235f1109129505.setContent(html_fd0404b36c54eaf21046489335769225);
+
+
+
+        circle_marker_f68a16b537a28e4c4581430fcf74e3b3.bindPopup(popup_9e3d37d940dc242e78235f1109129505)
+        ;
+
+
+
+
+            var circle_marker_3a2d5cfd89a5a95160dd43194c054c55 = L.circleMarker(
+                [41.975497, 2.824881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_3fb1a430e43e6f7ecaced6769d35cc94 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_fc914d8a09d4277135520fc14622881e = $(`<div id="html_fc914d8a09d4277135520fc14622881e" style="width: 100.0%; height: 100.0%;">address: Carme-Vistalegre<br>price: 2400<br>area: 45<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.975497<br>lon: 2.824881<br>census_tract: 1707901003</div>`)[0];
+                popup_3fb1a430e43e6f7ecaced6769d35cc94.setContent(html_fc914d8a09d4277135520fc14622881e);
+
+
+
+        circle_marker_3a2d5cfd89a5a95160dd43194c054c55.bindPopup(popup_3fb1a430e43e6f7ecaced6769d35cc94)
+        ;
+
+
+
+
+            var circle_marker_56311ca1b825ee547ec474fde1f8dc76 = L.circleMarker(
+                [41.983506, 2.820898],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_dd5ab88e71c43c99c23d08a9e723ac87 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ab5d85897d965d665aa8f074f981092f = $(`<div id="html_ab5d85897d965d665aa8f074f981092f" style="width: 100.0%; height: 100.0%;">address: Calle de Cristòfol Grober, 34<br>price: 550<br>area: 55<br>rooms: 1.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: True<br>lat: 41.983506<br>lon: 2.820898<br>census_tract: 1707903001</div>`)[0];
+                popup_dd5ab88e71c43c99c23d08a9e723ac87.setContent(html_ab5d85897d965d665aa8f074f981092f);
+
+
+
+        circle_marker_56311ca1b825ee547ec474fde1f8dc76.bindPopup(popup_dd5ab88e71c43c99c23d08a9e723ac87)
+        ;
+
+
+
+
+            var circle_marker_2100ae8219a59cccb3d3bebe8974f951 = L.circleMarker(
+                [41.977527, 2.82045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_8beb3ee28874a49bd4e3931ce9e7841b = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_14f20eda41b4443727e1c81da05abb4a = $(`<div id="html_14f20eda41b4443727e1c81da05abb4a" style="width: 100.0%; height: 100.0%;">address: Calle de Sant Joan Baptista la Salle, 6<br>price: 1790<br>area: 104<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: 6.0<br>elevator: True<br>lat: 41.977527<br>lon: 2.82045<br>census_tract: 1707902004</div>`)[0];
+                popup_8beb3ee28874a49bd4e3931ce9e7841b.setContent(html_14f20eda41b4443727e1c81da05abb4a);
+
+
+
+        circle_marker_2100ae8219a59cccb3d3bebe8974f951.bindPopup(popup_8beb3ee28874a49bd4e3931ce9e7841b)
+        ;
+
+
+
+
+            var circle_marker_66c27fbecc883d2578441a06bf12ce50 = L.circleMarker(
+                [41.981401, 2.813302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b279283475b930fc01c9da762821468d = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_e2f99184538b8f2e9afe6ae033d285b7 = $(`<div id="html_e2f99184538b8f2e9afe6ae033d285b7" style="width: 100.0%; height: 100.0%;">address: Calle del Riu Güell, 59<br>price: 1000<br>area: 89<br>rooms: 2.0<br>neighbourhood: Devesa<br>floors: 2.0<br>elevator: True<br>lat: 41.981401<br>lon: 2.813302<br>census_tract: 1707903020</div>`)[0];
+                popup_b279283475b930fc01c9da762821468d.setContent(html_e2f99184538b8f2e9afe6ae033d285b7);
+
+
+
+        circle_marker_66c27fbecc883d2578441a06bf12ce50.bindPopup(popup_b279283475b930fc01c9da762821468d)
+        ;
+
+
+
+
+            var circle_marker_4d34188244709a0d7572b1cc72501bba = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_625ee0a30200b1552967f87c567f2bcf = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_dca4965bfe27156d33a09523dbba9d66 = $(`<div id="html_dca4965bfe27156d33a09523dbba9d66" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1287<br>area: 80<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_625ee0a30200b1552967f87c567f2bcf.setContent(html_dca4965bfe27156d33a09523dbba9d66);
+
+
+
+        circle_marker_4d34188244709a0d7572b1cc72501bba.bindPopup(popup_625ee0a30200b1552967f87c567f2bcf)
+        ;
+
+
+
+
+            var circle_marker_4c449e3a3b2b5eea807573699a8045c0 = L.circleMarker(
+                [41.975583, 2.805483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_04be79a850e91ed10b0f10fb1c72a779 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_cf5ca16cedef1cf8cacb32353fef79e1 = $(`<div id="html_cf5ca16cedef1cf8cacb32353fef79e1" style="width: 100.0%; height: 100.0%;">address: Montseny, 41<br>price: 980<br>area: 120<br>rooms: 3.0<br>neighbourhood: Santa Eugenia<br>floors: 4.0<br>elevator: True<br>lat: 41.975583<br>lon: 2.805483<br>census_tract: 1707903011</div>`)[0];
+                popup_04be79a850e91ed10b0f10fb1c72a779.setContent(html_cf5ca16cedef1cf8cacb32353fef79e1);
+
+
+
+        circle_marker_4c449e3a3b2b5eea807573699a8045c0.bindPopup(popup_04be79a850e91ed10b0f10fb1c72a779)
+        ;
+
+
+
+
+            var circle_marker_0e2b204415c684a11ab021bf82ed0d53 = L.circleMarker(
+                [41.978459, 2.820586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_83954f5a7e7b577010a62290424c4ed9 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_52fafa04996769b4eb79c52168d8029c = $(`<div id="html_52fafa04996769b4eb79c52168d8029c" style="width: 100.0%; height: 100.0%;">address: Calle Bisbe Lorenzana<br>price: 1735<br>area: 73<br>rooms: 1.0<br>neighbourhood: Eixample<br>floors: 1.0<br>elevator: True<br>lat: 41.978459<br>lon: 2.820586<br>census_tract: 1707902004</div>`)[0];
+                popup_83954f5a7e7b577010a62290424c4ed9.setContent(html_52fafa04996769b4eb79c52168d8029c);
+
+
+
+        circle_marker_0e2b204415c684a11ab021bf82ed0d53.bindPopup(popup_83954f5a7e7b577010a62290424c4ed9)
+        ;
+
+
+
+
+            var circle_marker_79738a15e7d1f8275d927a16cb79cd37 = L.circleMarker(
+                [41.970637, 2.820963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_de2d4bc132502db6e72dbc86f2299eb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0179e12b4fc3dc796dcf4d76abaa679e = $(`<div id="html_0179e12b4fc3dc796dcf4d76abaa679e" style="width: 100.0%; height: 100.0%;">address: Calle de Sant Agustí, 46<br>price: 1100<br>area: 75<br>rooms: 2.0<br>neighbourhood: Migdia Casernes<br>floors: 4.0<br>elevator: True<br>lat: 41.970637<br>lon: 2.820963<br>census_tract: 1707902010</div>`)[0];
+                popup_de2d4bc132502db6e72dbc86f2299eb8.setContent(html_0179e12b4fc3dc796dcf4d76abaa679e);
+
+
+
+        circle_marker_79738a15e7d1f8275d927a16cb79cd37.bindPopup(popup_de2d4bc132502db6e72dbc86f2299eb8)
+        ;
+
+
+
+
+            var circle_marker_aae568f0a077ee940869846673b4651d = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_80b1e2cfae8c1fa806d218940c75f662 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_d066623b3ac2ff848b4624e0bff747b2 = $(`<div id="html_d066623b3ac2ff848b4624e0bff747b2" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1400<br>area: 120<br>rooms: 3.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_80b1e2cfae8c1fa806d218940c75f662.setContent(html_d066623b3ac2ff848b4624e0bff747b2);
+
+
+
+        circle_marker_aae568f0a077ee940869846673b4651d.bindPopup(popup_80b1e2cfae8c1fa806d218940c75f662)
+        ;
+
+
+
+
+            var circle_marker_968cf9372e48cd4bf82901ee08db52c8 = L.circleMarker(
+                [41.965464, 2.812528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_59d8e03d4d8421b77005900f901e8db4 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_89464969393eb3dba8047f9f43b58139 = $(`<div id="html_89464969393eb3dba8047f9f43b58139" style="width: 100.0%; height: 100.0%;">address: Calle Barcelona<br>price: 1250<br>area: 129<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 5.0<br>elevator: True<br>lat: 41.965464<br>lon: 2.812528<br>census_tract: 1707902022</div>`)[0];
+                popup_59d8e03d4d8421b77005900f901e8db4.setContent(html_89464969393eb3dba8047f9f43b58139);
+
+
+
+        circle_marker_968cf9372e48cd4bf82901ee08db52c8.bindPopup(popup_59d8e03d4d8421b77005900f901e8db4)
+        ;
+
+
+
+
+            var circle_marker_cd66904c39a148b3497e757fa98ff2fd = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_554b9922ca442944a0c4dff9c98fcc5e = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_3590e3a1b372e506f55700cc54df1ca1 = $(`<div id="html_3590e3a1b372e506f55700cc54df1ca1" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1500<br>area: 70<br>rooms: 2.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_554b9922ca442944a0c4dff9c98fcc5e.setContent(html_3590e3a1b372e506f55700cc54df1ca1);
+
+
+
+        circle_marker_cd66904c39a148b3497e757fa98ff2fd.bindPopup(popup_554b9922ca442944a0c4dff9c98fcc5e)
+        ;
+
+
+
+
+            var circle_marker_ac38e7eae807e5e53422c9055e980cb7 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_ab99ebcacc0273e4114f955f1d10ad25 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_a95f452bad8f83e2f8c6aef996d280e7 = $(`<div id="html_a95f452bad8f83e2f8c6aef996d280e7" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1800<br>area: 70<br>rooms: 2.0<br>neighbourhood: nan<br>floors: nan<br>elevator: nan<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_ab99ebcacc0273e4114f955f1d10ad25.setContent(html_a95f452bad8f83e2f8c6aef996d280e7);
+
+
+
+        circle_marker_ac38e7eae807e5e53422c9055e980cb7.bindPopup(popup_ab99ebcacc0273e4114f955f1d10ad25)
+        ;
+
+
+
+
+            var circle_marker_32853620078d7b353a767e5be4cc4db9 = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_001f57818b18cc40280e4b8e9e532295 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_58534de1a87d6781fda54c7afd007c60 = $(`<div id="html_58534de1a87d6781fda54c7afd007c60" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1500<br>area: 100<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 3.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_001f57818b18cc40280e4b8e9e532295.setContent(html_58534de1a87d6781fda54c7afd007c60);
+
+
+
+        circle_marker_32853620078d7b353a767e5be4cc4db9.bindPopup(popup_001f57818b18cc40280e4b8e9e532295)
+        ;
+
+
+
+
+            var circle_marker_5b49d2b9faa6cccfcebd245a18604714 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_a41f6774e5b052197b9243d4e71d52c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_f83480e2129e6222f8b5f3e5a6bfcaf0 = $(`<div id="html_f83480e2129e6222f8b5f3e5a6bfcaf0" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1150<br>area: 90<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 5.0<br>elevator: True<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_a41f6774e5b052197b9243d4e71d52c8.setContent(html_f83480e2129e6222f8b5f3e5a6bfcaf0);
+
+
+
+        circle_marker_5b49d2b9faa6cccfcebd245a18604714.bindPopup(popup_a41f6774e5b052197b9243d4e71d52c8)
+        ;
+
+
+
+
+            var circle_marker_a3444d22cf0444ed4d713b8331061eb3 = L.circleMarker(
+                [41.977527, 2.82045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_6da4d89940324d18aa728d30c56b2e5c = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_6d8b214cbe385f5349b7f5310bd37f30 = $(`<div id="html_6d8b214cbe385f5349b7f5310bd37f30" style="width: 100.0%; height: 100.0%;">address: Calle de Sant Joan Baptista la Salle<br>price: 1150<br>area: 65<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.977527<br>lon: 2.82045<br>census_tract: 1707902004</div>`)[0];
+                popup_6da4d89940324d18aa728d30c56b2e5c.setContent(html_6d8b214cbe385f5349b7f5310bd37f30);
+
+
+
+        circle_marker_a3444d22cf0444ed4d713b8331061eb3.bindPopup(popup_6da4d89940324d18aa728d30c56b2e5c)
+        ;
+
+
+
+
+            var circle_marker_79cfb42fe0dca0e6db3b012c9f1a05e3 = L.circleMarker(
+                [41.976658, 2.821332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_15078017fef39a5c3c2e00bfe2c60032 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ad18bc0262a10bd106b5f506c55e8462 = $(`<div id="html_ad18bc0262a10bd106b5f506c55e8462" style="width: 100.0%; height: 100.0%;">address: CL Cardenal Margarit<br>price: 1050<br>area: 59<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 4.0<br>elevator: True<br>lat: 41.976658<br>lon: 2.821332<br>census_tract: 1707902006</div>`)[0];
+                popup_15078017fef39a5c3c2e00bfe2c60032.setContent(html_ad18bc0262a10bd106b5f506c55e8462);
+
+
+
+        circle_marker_79cfb42fe0dca0e6db3b012c9f1a05e3.bindPopup(popup_15078017fef39a5c3c2e00bfe2c60032)
+        ;
+
+
+
+
+            var circle_marker_eff36a2b072e3b6fa5340eb601cf23ab = L.circleMarker(
+                [41.984754, 2.824947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_842511307a4828b08ca7ac0b9675ac3f = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_99a9ccd8a9270c2e0bab1f4adfb345f4 = $(`<div id="html_99a9ccd8a9270c2e0bab1f4adfb345f4" style="width: 100.0%; height: 100.0%;">address: Calle de la Cort Reial, 15<br>price: 1200<br>area: 75<br>rooms: 3.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: True<br>lat: 41.984754<br>lon: 2.824947<br>census_tract: 1707904001</div>`)[0];
+                popup_842511307a4828b08ca7ac0b9675ac3f.setContent(html_99a9ccd8a9270c2e0bab1f4adfb345f4);
+
+
+
+        circle_marker_eff36a2b072e3b6fa5340eb601cf23ab.bindPopup(popup_842511307a4828b08ca7ac0b9675ac3f)
+        ;
+
+
+
+
+            var circle_marker_d0d96d6bc4f566dd8fe7b4a5742998cd = L.circleMarker(
+                [41.984809, 2.819173],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b75d7e1fdb0c648030ad546a7614c524 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_0cfc0792734fe78059d950ff25a53d29 = $(`<div id="html_0cfc0792734fe78059d950ff25a53d29" style="width: 100.0%; height: 100.0%;">address: Calle Bonastruc de Porta, 16<br>price: 1130<br>area: 110<br>rooms: 3.0<br>neighbourhood: Devesa<br>floors: 1.0<br>elevator: False<br>lat: 41.984809<br>lon: 2.819173<br>census_tract: 1707903003</div>`)[0];
+                popup_b75d7e1fdb0c648030ad546a7614c524.setContent(html_0cfc0792734fe78059d950ff25a53d29);
+
+
+
+        circle_marker_d0d96d6bc4f566dd8fe7b4a5742998cd.bindPopup(popup_b75d7e1fdb0c648030ad546a7614c524)
+        ;
+
+
+
+
+            var circle_marker_ae1ae2040c8b12b5bbc1e400726004e7 = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_6aa6987a6daaa94a14d748dea25182e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_997d67542e3241e00f1c7455a1beb8b8 = $(`<div id="html_997d67542e3241e00f1c7455a1beb8b8" style="width: 100.0%; height: 100.0%;">address: Eixample<br>price: 1500<br>area: 60<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 2.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_6aa6987a6daaa94a14d748dea25182e4.setContent(html_997d67542e3241e00f1c7455a1beb8b8);
+
+
+
+        circle_marker_ae1ae2040c8b12b5bbc1e400726004e7.bindPopup(popup_6aa6987a6daaa94a14d748dea25182e4)
+        ;
+
+
+
+
+            var circle_marker_ae8f5e4d77637c03081cfdff933a407f = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_789c576f19395dabfb40789f2d2ac8fb = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_1439f009b18b59609c0311b814984407 = $(`<div id="html_1439f009b18b59609c0311b814984407" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 690<br>area: 65<br>rooms: 2.0<br>neighbourhood: nan<br>floors: 1.0<br>elevator: False<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_789c576f19395dabfb40789f2d2ac8fb.setContent(html_1439f009b18b59609c0311b814984407);
+
+
+
+        circle_marker_ae8f5e4d77637c03081cfdff933a407f.bindPopup(popup_789c576f19395dabfb40789f2d2ac8fb)
+        ;
+
+
+
+
+            var circle_marker_50a62bd56f86d0e090a9bcf321e53d87 = L.circleMarker(
+                [41.984325, 2.824916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_23afac01dffcaeb911344eb7248be53f = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_59bfbe70cff50def7c7b6e2bf2f13ed3 = $(`<div id="html_59bfbe70cff50def7c7b6e2bf2f13ed3" style="width: 100.0%; height: 100.0%;">address: Barri Vell<br>price: 1600<br>area: 62<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 3.0<br>elevator: False<br>lat: 41.984325<br>lon: 2.824916<br>census_tract: 1707904001</div>`)[0];
+                popup_23afac01dffcaeb911344eb7248be53f.setContent(html_59bfbe70cff50def7c7b6e2bf2f13ed3);
+
+
+
+        circle_marker_50a62bd56f86d0e090a9bcf321e53d87.bindPopup(popup_23afac01dffcaeb911344eb7248be53f)
+        ;
+
+
+
+
+            var circle_marker_372ff1370490dc2ea8987b0fcb7eafb0 = L.circleMarker(
+                [41.969428, 2.809759],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_ba33fb933ad31caaf25f050b568b0a22 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_728d18cbdbddd0d0d289d455ccf5ad40 = $(`<div id="html_728d18cbdbddd0d0d289d455ccf5ad40" style="width: 100.0%; height: 100.0%;">address: Calle de Bilbao<br>price: 1290<br>area: 97<br>rooms: 3.0<br>neighbourhood: Sant Narcís<br>floors: 2.0<br>elevator: True<br>lat: 41.969428<br>lon: 2.809759<br>census_tract: 1707903010</div>`)[0];
+                popup_ba33fb933ad31caaf25f050b568b0a22.setContent(html_728d18cbdbddd0d0d289d455ccf5ad40);
+
+
+
+        circle_marker_372ff1370490dc2ea8987b0fcb7eafb0.bindPopup(popup_ba33fb933ad31caaf25f050b568b0a22)
+        ;
+
+
+
+
+            var circle_marker_9ea7196498776901eb139c8fcdb26f3a = L.circleMarker(
+                [41.970037, 2.817763],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_338b24523a11dd5286fb86b6c05da994 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_ad092e1320897a66bf350102bcc72c3a = $(`<div id="html_ad092e1320897a66bf350102bcc72c3a" style="width: 100.0%; height: 100.0%;">address: Calle Narcís Blanch, 39<br>price: 900<br>area: 70<br>rooms: 1.0<br>neighbourhood: Migdia Casernes<br>floors: 4.0<br>elevator: True<br>lat: 41.970037<br>lon: 2.817763<br>census_tract: 1707902021</div>`)[0];
+                popup_338b24523a11dd5286fb86b6c05da994.setContent(html_ad092e1320897a66bf350102bcc72c3a);
+
+
+
+        circle_marker_9ea7196498776901eb139c8fcdb26f3a.bindPopup(popup_338b24523a11dd5286fb86b6c05da994)
+        ;
+
+
+
+
+            var circle_marker_3a8742fa38f151aebe36bca8e15d8c6d = L.circleMarker(
+                [41.987702, 2.824236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_00a4a88c0b4be272bf587b368120add4 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_d850b07666c24b255bc6c5f2232e75da = $(`<div id="html_d850b07666c24b255bc6c5f2232e75da" style="width: 100.0%; height: 100.0%;">address: Calle dels Calderers, 12<br>price: 990<br>area: 80<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 1.0<br>elevator: False<br>lat: 41.987702<br>lon: 2.824236<br>census_tract: 1707904001</div>`)[0];
+                popup_00a4a88c0b4be272bf587b368120add4.setContent(html_d850b07666c24b255bc6c5f2232e75da);
+
+
+
+        circle_marker_3a8742fa38f151aebe36bca8e15d8c6d.bindPopup(popup_00a4a88c0b4be272bf587b368120add4)
+        ;
+
+
+
+
+            var circle_marker_4f9f6d65a1d75c1d92fcd8d0f17794e1 = L.circleMarker(
+                [41.97593, 2.821806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_0b32d32dc874232f4a6e4e009f7bdc47 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_f825a3f4e86c91ca9ca9d27e14443739 = $(`<div id="html_f825a3f4e86c91ca9ca9d27e14443739" style="width: 100.0%; height: 100.0%;">address: Travesía de la Creu, 21<br>price: 1200<br>area: 80<br>rooms: 2.0<br>neighbourhood: Eixample<br>floors: nan<br>elevator: nan<br>lat: 41.97593<br>lon: 2.821806<br>census_tract: 1707902006</div>`)[0];
+                popup_0b32d32dc874232f4a6e4e009f7bdc47.setContent(html_f825a3f4e86c91ca9ca9d27e14443739);
+
+
+
+        circle_marker_4f9f6d65a1d75c1d92fcd8d0f17794e1.bindPopup(popup_0b32d32dc874232f4a6e4e009f7bdc47)
+        ;
+
+
+
+
+            var circle_marker_a29ac2c959cb75067e9f1ef5d934c684 = L.circleMarker(
+                [41.975497, 2.824881],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_1ec852e8640c0eb163ab4ef1856f1538 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_9c53f5273839d58755f9a885fe1db640 = $(`<div id="html_9c53f5273839d58755f9a885fe1db640" style="width: 100.0%; height: 100.0%;">address: Carme-Vistalegre<br>price: 1125<br>area: 128<br>rooms: 3.0<br>neighbourhood: nan<br>floors: 3.0<br>elevator: True<br>lat: 41.975497<br>lon: 2.824881<br>census_tract: 1707901003</div>`)[0];
+                popup_1ec852e8640c0eb163ab4ef1856f1538.setContent(html_9c53f5273839d58755f9a885fe1db640);
+
+
+
+        circle_marker_a29ac2c959cb75067e9f1ef5d934c684.bindPopup(popup_1ec852e8640c0eb163ab4ef1856f1538)
+        ;
+
+
+
+
+            var circle_marker_2aef87f41c6a957fc4558e104f51e2d4 = L.circleMarker(
+                [41.98007, 2.818438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_b4036883ecad0059c42ecb94a72c9513 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_6d6d99c6e306eb199b22e3c6a3663250 = $(`<div id="html_6d6d99c6e306eb199b22e3c6a3663250" style="width: 100.0%; height: 100.0%;">address: Ronda Pare Maria Claret, 41<br>price: 1200<br>area: 94<br>rooms: 3.0<br>neighbourhood: Eixample<br>floors: 5.0<br>elevator: True<br>lat: 41.98007<br>lon: 2.818438<br>census_tract: 1707902002</div>`)[0];
+                popup_b4036883ecad0059c42ecb94a72c9513.setContent(html_6d6d99c6e306eb199b22e3c6a3663250);
+
+
+
+        circle_marker_2aef87f41c6a957fc4558e104f51e2d4.bindPopup(popup_b4036883ecad0059c42ecb94a72c9513)
+        ;
+
+
+
+
+            var circle_marker_7317d2d7b54703814bab408955690a11 = L.circleMarker(
+                [41.989467, 2.825167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_acbb08726f8f89fbc2389277c8dde96b);
+
+
+        var popup_81dddc92c784093704ae3644158cdab7 = L.popup({
+  "maxWidth": "100%",
+});
+
+
+
+                var html_48be74054691fe1408e54a5666f3a71a = $(`<div id="html_48be74054691fe1408e54a5666f3a71a" style="width: 100.0%; height: 100.0%;">address: Plaza de Sant Pere, 3<br>price: 1200<br>area: 79<br>rooms: 2.0<br>neighbourhood: Barri Vell<br>floors: 3.0<br>elevator: True<br>lat: 41.989467<br>lon: 2.825167<br>census_tract: 1707905002</div>`)[0];
+                popup_81dddc92c784093704ae3644158cdab7.setContent(html_48be74054691fe1408e54a5666f3a71a);
+
+
+
+        circle_marker_7317d2d7b54703814bab408955690a11.bindPopup(popup_81dddc92c784093704ae3644158cdab7)
+        ;
+
+
+
+
+            marker_cluster_acbb08726f8f89fbc2389277c8dde96b.addTo(map_fe2b83262619c4ba774b14209a37071e);
+
+
+            var layer_control_36e8ab5ba4d7b0e2af9f63f312caabe2_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_49e5404f043669fbd20af0593e7b1554,
+                },
+                overlays :  {
+                    "macro_element_acbb08726f8f89fbc2389277c8dde96b" : marker_cluster_acbb08726f8f89fbc2389277c8dde96b,
+                },
+            };
+            let layer_control_36e8ab5ba4d7b0e2af9f63f312caabe2 = L.control.layers(
+                layer_control_36e8ab5ba4d7b0e2af9f63f312caabe2_layers.base_layers,
+                layer_control_36e8ab5ba4d7b0e2af9f63f312caabe2_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_fe2b83262619c4ba774b14209a37071e);
+
+
+</script>
+</html>

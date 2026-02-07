@@ -91,15 +91,17 @@ def crear_mapa(
     marker_cluster = MarkerCluster().add_to(m)
 
     for _, row in df.iterrows():
+        popup_text = "<br>".join([f"{col}: {row[col]}" for col in df.columns])
         folium.CircleMarker(
             location=[row[lat_col], row[lon_col]],
             radius=5,
             color="red",
             fill=True,
             fill_opacity=0.7,
-            popup=f"Precio: {row.price}€<br>Área: {row.area}m²",
+            popup=popup_text,
         ).add_to(marker_cluster)
 
     folium.LayerControl().add_to(m)
 
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
     m.save(f"{output_dir}/{name_html}")

@@ -3,7 +3,7 @@ name: Promote Model to Production
 on:
   push:
     tags:
-      - 'model-v*'
+      - "model-v*"
 
 jobs:
   quality-gate:
@@ -17,38 +17,37 @@ jobs:
         with:
           path: notebooks
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.13'
+      # - name: Set up Python
+      #   uses: actions/setup-python@v6
+      #   with:
+      #     python-version: '3.12.10'
 
-      - name: Install Dependencies
-        run: |
-          pip install pandas scikit-learn joblib
-          # Add requirements.txt if you have one: pip install -r notebooks/requirements.txt
+      # - name: Install Dependencies
+      #   run: |
+      #     pip install pandas scikit-learn joblib
+      #     # Add requirements.txt if you have one: pip install -r notebooks/requirements.txt
 
-      - name: Run Export Script
-        env:
-          # Load the variable from GitHub Settings
-          USE_DUMMY: ${{ vars.USE_DUMMY_MODE }}
-        run: |
-          # Create a temp folder for artifacts
-          mkdir artifacts
+      # - name: Run Export Script
+      #   env:
+      #     # Load the variable from GitHub Settings
+      #     USE_DUMMY: ${{ vars.USE_DUMMY_MODE }}
+      #   run: |
+      #     # Create a temp folder for artifacts
+      #     mkdir artifacts
 
-          # Run the python script we created in Step 1
-          # We execute it from the 'notebooks' directory context
-          cd notebooks
+      #     # Run the python script we created in Step 1
+      #     # We execute it from the 'notebooks' directory context
+      #     cd notebooks
 
-          if [ "$USE_DUMMY" == "true" ]; then
-            FLAG="--is_dummy"
-            echo "⚠️  Running in Dummy Mode"
-          else
-            FLAG=""
-            echo "✅ Running in Real Mode"
-          fi
+      #     if [ "$USE_DUMMY" == "true" ]; then
+      #       FLAG="--is_dummy"
+      #       echo "⚠️  Running in Dummy Mode"
+      #     else
+      #       FLAG=""
+      #       echo "✅ Running in Real Mode"
+      #     fi
 
-
-          python src/export_model.py --output_dir ../artifacts $FLAG
+      #     python src/export_model.py --output_dir ../artifacts $FLAG
 
       # ----------------------------------------------------------------
       # PART 2: DELIVER TO DJANGO REPO
@@ -61,27 +60,63 @@ jobs:
           path: backend
           token: ${{ secrets.API_REPO_PAT }}
 
-      - name: Transfer Files
+      # - name: Transfer Files
+      #   run: |
+      #     # 1. FIX: Include 'backend/' in the path so we write INSIDE the repo
+      #     DEST_DIR="backend/src/ml_resources"
+
+      #     echo "📂 Creating destination directory: $DEST_DIR"
+      #     mkdir -p $DEST_DIR
+
+      #     # 2. Remove old version (clean slate)
+      #     rm -f $DEST_DIR/model.pkl
+      #     rm -f $DEST_DIR/transformers.py
+
+      #     # 3. Copy new version from artifacts folder
+      #     echo "🚚 Copying artifacts..."
+      #     cp artifacts/model.pkl $DEST_DIR/
+      #     cp artifacts/transformers.py $DEST_DIR/
+
+      #     # 4. Verify copy
+      #     ls -l $DEST_DIR
+
+      #     # 5. FORCE STAGE FILES (The Safety Net)
+      #     # We need to tell Git: "I don't care about .gitignore, track these files!"
+      #     cd backend
+
+      #     # Configure a dummy user so git commands work
+      #     git config --global user.email "bot@hackathon.com"
+      #     git config --global user.name "Model Bot"
+
+      # ----------------------------------------------------------------
+      # 3. TRANSFER FILES (The Copy Step)
+      # ----------------------------------------------------------------
+      - name: Copy Model Files
         run: |
-          # 1. FIX: Include 'backend/' in the path so we write INSIDE the repo
+          # Define paths relative to the runner workspace
+          SOURCE_DIR="notebooks/data/model_results"
           DEST_DIR="backend/src/ml_resources"
 
-          echo "📂 Creating destination directory: $DEST_DIR"
-          mkdir -p $DEST_DIR
+          echo "🔍 Checking source..."
+          if [ ! -d "$SOURCE_DIR" ]; then
+            echo "❌ Error: $SOURCE_DIR not found. Did you commit the model files?"
+            ls -R notebooks/
+            exit 1
+          fi
 
-          # 2. Remove old version (clean slate)
-          rm -f $DEST_DIR/model.pkl
-          rm -f $DEST_DIR/transformers.py
+          echo "📂 Preparing destination: $DEST_DIR"
+          # Create dir if not exists
+          mkdir -p "$DEST_DIR"
 
-          # 3. Copy new version from artifacts folder
-          echo "🚚 Copying artifacts..."
-          cp artifacts/model.pkl $DEST_DIR/
-          cp artifacts/transformers.py $DEST_DIR/
+          # Clean old files to ensure we don't keep stale junk
+          rm -rf "$DEST_DIR"/*
 
-          # 4. Verify copy
-          ls -l $DEST_DIR
+          echo "🚚 Copying all files..."
+          # recursive copy of everything inside the source folder
+          cp -r "$SOURCE_DIR"/. "$DEST_DIR"/
 
-          # 5. FORCE STAGE FILES (The Safety Net)
+          echo "✅ Verification:"
+          ls -l "$DEST_DIR"
           # We need to tell Git: "I don't care about .gitignore, track these files!"
           cd backend
 
@@ -108,7 +143,7 @@ jobs:
             **Source Tag:** `${{ github.ref_name }}`
 
             **Manifest:**
-            - Model files...
+            Replaced contents of `src/ml_resources` with `data/model_results`.
 
             **Action Required:**
             1. Review  changes.

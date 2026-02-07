@@ -10,8 +10,9 @@ exclude = [
     "build",
     "dist",
     "ignore_*",
+    "*.ipynb",
 ]
-extend-include = ["*.ipynb"]
+# extend-include = ["*.ipynb"]
 
 # Same as Black
 line-length = 88

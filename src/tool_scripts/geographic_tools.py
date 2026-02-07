@@ -6,7 +6,14 @@ import pandas as pd
 from folium.plugins import MarkerCluster
 from shapely.geometry import Point
 
-from constants import ADD_RAW_OG_DATA, CENS_TRACT_COL, LAT_COL, LON_COL, OUTPUT_DATA
+from constants import (
+    ADD_RAW_OG_DATA,
+    CENS_TRACT_COL,
+    GIRONA_BARRIS_DATA,
+    LAT_COL,
+    LON_COL,
+    OUTPUT_DATA,
+)
 
 # Ruta al ZIP que contiene tu Shapefile
 zip_path = Path(f"{ADD_RAW_OG_DATA}/INE_SECCIONS_2025-SECC_CE_20250101.zip")
@@ -105,3 +112,27 @@ def crear_mapa(
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     m.save(f"{output_dir}/{name_html}")
+
+
+def lat_to_neighbourhood(my_lat: float, my_lon: float) -> str:
+    """
+    Dado un código de sección censal (CUSEC), devuelve el nombre del barrio correspondiente.
+
+    Args:
+        census_tract (str): Código de sección censal (CUSEC).
+    Returns:
+        str: Nombre del barrio correspondiente al CUSEC.
+    """
+    gdf_neighborhoods = gpd.read_file(f"{GIRONA_BARRIS_DATA}/Barris.shp")
+    if gdf_neighborhoods.crs != "EPSG:4326":
+        gdf_neighborhoods = gdf_neighborhoods.to_crs("EPSG:4326")
+
+    point = Point(my_lon, my_lat)
+    match = gdf_neighborhoods[gdf_neighborhoods.contains(point)]
+    if not match.empty:
+        # 'NOM' is usually the column name for Neighborhood Name in Catalan shapefiles
+        # It might also be 'DESCRIPCIO' or 'NAME'. Print gdf_neighborhoods.columns to check.
+        neighborhood_name = match.iloc[0]["NOM"]
+        print(f"The neighborhood is: {neighborhood_name}")
+    else:
+        print("Coordinates are outside the mapped neighborhoods.")

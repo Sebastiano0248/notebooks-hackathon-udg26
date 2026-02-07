@@ -3,6 +3,7 @@ RAW_OG_DATA = "../data/raw"
 PROCESSED_DATA = "../data/processed"
 ADD_RAW_OG_DATA = "../data/raw/additional_raw"
 OUTPUT_DATA = "../outputs"
+GIRONA_BARRIS_DATA = "../data/barris"
 
 # COLUMN_DEFAULT_NAMES
 LAT_COL = "lat"

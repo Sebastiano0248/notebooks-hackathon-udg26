@@ -1,6 +1,7 @@
 # PATHS
 RAW_OG_DATA = "../data/raw"
 PROCESSED_DATA = "../data/processed"
+OBSERVABLE_DATA = "../data/observable_datasets"
 ADD_RAW_OG_DATA = "../data/raw/additional_raw"
 OUTPUT_DATA = "../outputs"
 GIRONA_BARRIS_DATA = "../data/barris"
